@@ -7,8 +7,21 @@ export default function ContactForm() {
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    // Placeholder — wire up to a form service (Formspree, etc.)
-    setStatus("success");
+    const form = e.currentTarget;
+    try {
+      const res = await fetch("https://formspree.io/f/eric@ericpresnall.com", {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+      if (res.ok) {
+        setStatus("success");
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
   }
 
   if (status === "success") {
