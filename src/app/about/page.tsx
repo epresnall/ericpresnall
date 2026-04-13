@@ -79,6 +79,19 @@ export default function AboutPage() {
               — Reflecting on my first performance as Tunny in American Idiot
             </footer>
           </blockquote>
+
+          {/* Image grid 1 */}
+          <div className="grid grid-cols-3 gap-4 my-12">
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+              <Image src="/images/55.jpg" alt="Eric performing" fill className="object-cover" />
+            </div>
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+              <Image src="/images/56.jpg" alt="Eric on stage" fill className="object-cover" />
+            </div>
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+              <Image src="/images/57.jpg" alt="Eric traveling" fill className="object-cover" />
+            </div>
+          </div>
         </div>
       </Section>
 
@@ -123,30 +136,16 @@ export default function AboutPage() {
             authenticity and understanding.
           </p>
 
+          {/* Image grid 2 */}
           <div className="grid grid-cols-3 gap-4 my-12">
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
-              <Image
-                src="/images/62-min.jpg"
-                alt="Eric performing"
-                fill
-                className="object-cover"
-              />
+              <Image src="/images/52.jpg" alt="Eric on camera" fill className="object-cover" />
             </div>
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
-              <Image
-                src="/images/64.jpg"
-                alt="Eric on set"
-                fill
-                className="object-cover"
-              />
+              <Image src="/images/53.jpg" alt="Eric presenting" fill className="object-cover" />
             </div>
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
-              <Image
-                src="/images/66.jpg"
-                alt="Eric traveling"
-                fill
-                className="object-cover"
-              />
+              <Image src="/images/54.jpg" alt="Eric on location" fill className="object-cover" />
             </div>
           </div>
 

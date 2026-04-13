@@ -8,7 +8,7 @@ export default function ContactSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           <div>
             <Eyebrow>#contact</Eyebrow>
-            <H2 className="mt-3">Let&apos;s get in touch</H2>
+            <H2 className="mt-3">Have some questions?</H2>
             <p className="text-[var(--color-white-60)] mt-6 leading-relaxed">
               Leave a message by filling out the form below...
             </p>

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -19,8 +20,14 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-[var(--color-dark)]/90 backdrop-blur-md border-b border-white/5">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         {/* Logo */}
-        <Link href="/" className="heading text-xl tracking-wider">
-          Eric Presnall
+        <Link href="/">
+          <Image
+            src="/images/image_2025_03_10T09_52_13_965Z.png"
+            alt="Eric Presnall"
+            width={140}
+            height={40}
+            className="h-8 w-auto"
+          />
         </Link>
 
         {/* Desktop nav */}
