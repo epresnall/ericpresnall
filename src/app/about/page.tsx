@@ -20,7 +20,7 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-[3/4] max-w-md mx-auto lg:mx-0 rounded-2xl overflow-hidden">
               <Image
-                src="/images/image_2025_01_23T23_42_33_424Z.png"
+                src="/images/10-removebg-preview.png"
                 alt="Eric Presnall"
                 fill
                 className="object-cover"

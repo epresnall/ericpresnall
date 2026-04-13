@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { H2, Eyebrow } from "@/components/ui";
 import ContactForm from "@/components/ContactForm";
 
@@ -12,20 +13,31 @@ export default function ContactSection() {
             <p className="text-[var(--color-white-60)] mt-6 leading-relaxed">
               Leave a message by filling out the form below...
             </p>
-            <div className="mt-8 space-y-4">
+            <div className="mt-6">
+              <p className="text-sm text-[var(--color-white-60)] mb-3">...or email me at the following email.</p>
               <a
                 href="mailto:eric@ericpresnall.com"
-                className="flex items-center gap-3 text-[var(--color-white-60)] hover:text-[var(--color-purple)] transition-colors"
+                className="text-lg text-white hover:text-[var(--color-purple)] transition-colors font-semibold"
               >
-                <svg
-                  className="w-5 h-5"
-                  fill="currentColor"
-                  viewBox="0 0 512 512"
-                >
-                  <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
-                </svg>
                 eric@ericpresnall.com
               </a>
+              <div className="flex items-center gap-4 mt-6">
+                <a href="mailto:eric@ericpresnall.com" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/envelope-regular_1.svg" alt="Email" width={28} height={28} />
+                </a>
+                <a href="https://www.linkedin.com/in/ericpresnall/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/Linkedin-1_1Linkedin-1.png" alt="LinkedIn" width={28} height={28} />
+                </a>
+                <a href="https://www.youtube.com/@VideoContentForBusiness" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/download-copy_1.png" alt="YouTube" width={28} height={28} />
+                </a>
+                <a href="https://www.youtube.com/@Travel_Time_Kids" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/earth-asia-solid_1.svg" alt="Travel Time" width={28} height={28} />
+                </a>
+                <a href="https://www.imdb.com/name/nm2558438/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/1_1.png" alt="IMDb" width={28} height={28} />
+                </a>
+              </div>
             </div>
           </div>
           <ContactForm />

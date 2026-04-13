@@ -22,6 +22,15 @@ export default function EntertainerPage() {
       ]}
       aboutHeading="A passionate and dedicated performer"
       aboutText="I've always been driven by the power of storytelling through performance. From Broadway national tours to television hosting, each role is an opportunity to create meaningful connections with audiences. I believe in the transformative power of authentic performance to inspire, educate, and entertain."
+      aboutImage="/images/5-min.jpg"
+      galleryImages={[
+        "/images/61.jpg",
+        "/images/63.jpg",
+        "/images/64.jpg",
+        "/images/59.jpg",
+        "/images/60.jpeg",
+        "/images/62-min.jpg",
+      ]}
       values={[
         {
           title: "Versatile",

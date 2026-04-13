@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { H2 } from "@/components/ui";
 import ContactForm from "@/components/ContactForm";
 
@@ -52,24 +53,25 @@ export default function ContactPage() {
               <p className="text-sm text-[var(--color-white-60)] mb-4">
                 ...or email me at the following email.
               </p>
-              <div className="space-y-3">
-                {socialLinks.map((link) => (
-                  <a
-                    key={link.label}
-                    href={link.href}
-                    target={
-                      link.href.startsWith("mailto") ? undefined : "_blank"
-                    }
-                    rel={
-                      link.href.startsWith("mailto")
-                        ? undefined
-                        : "noopener noreferrer"
-                    }
-                    className="block text-[var(--color-white-60)] hover:text-[var(--color-purple)] transition-colors text-sm"
-                  >
-                    {link.text}
-                  </a>
-                ))}
+              <a href="mailto:eric@ericpresnall.com" className="text-lg text-white hover:text-[var(--color-purple)] transition-colors font-semibold">
+                eric@ericpresnall.com
+              </a>
+              <div className="flex items-center gap-4 mt-6">
+                <a href="mailto:eric@ericpresnall.com" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/envelope-regular_1.svg" alt="Email" width={28} height={28} />
+                </a>
+                <a href="https://www.linkedin.com/in/ericpresnall/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/Linkedin-1_1Linkedin-1.png" alt="LinkedIn" width={28} height={28} />
+                </a>
+                <a href="https://www.youtube.com/@VideoContentForBusiness" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/download-copy_1.png" alt="YouTube" width={28} height={28} />
+                </a>
+                <a href="https://www.youtube.com/@Travel_Time_Kids" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/earth-asia-solid_1.svg" alt="Travel Time" width={28} height={28} />
+                </a>
+                <a href="https://www.imdb.com/name/nm2558438/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/1_1.png" alt="IMDb" width={28} height={28} />
+                </a>
               </div>
             </div>
           </div>

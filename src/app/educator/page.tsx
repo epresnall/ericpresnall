@@ -14,7 +14,7 @@ export default function EducatorPage() {
       title="Educator"
       tagline="Travel Literacy | Arts In Education | Child Development"
       description="A dynamic educator combining performance arts, psychology, and international experience to create engaging learning experiences that inspire global understanding."
-      heroImage="/images/image_2025_01_23T23_42_33_424Z.png"
+      heroImage="/images/image-18351.png"
       stats={[
         { value: "35+", label: "Countries Explored" },
         { value: "1000+", label: "Students Impacted" },
@@ -22,6 +22,11 @@ export default function EducatorPage() {
       ]}
       aboutHeading="A passionate and dedicated educator"
       aboutText="I've always believed in the power of education to transform perspectives and open minds. By combining my background in psychology, performance, and international experience, I create engaging learning experiences that inspire curiosity about the world. I believe in education's ability to build bridges between cultures and foster global understanding."
+      galleryImages={[
+        "/images/65-min.jpg",
+        "/images/66.JPG",
+      ]}
+      galleryHeading="In the Classroom"
       values={[
         {
           title: "Engaging",

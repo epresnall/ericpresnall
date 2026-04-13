@@ -256,6 +256,24 @@ export default function Home() {
                   <StatCard key={s.label} value={s.value} label={s.label} />
                 ))}
               </div>
+              {/* Social icons */}
+              <div className="flex items-center gap-4 mt-8">
+                <a href="mailto:eric@ericpresnall.com" className="w-8 h-8 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/envelope-regular.svg" alt="Email" width={24} height={24} />
+                </a>
+                <a href="https://www.linkedin.com/in/ericpresnall/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/Frame-1_1Frame-1.png" alt="LinkedIn" width={24} height={24} />
+                </a>
+                <a href="https://www.youtube.com/@VideoContentForBusiness" target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/download-copy.png" alt="YouTube" width={24} height={24} />
+                </a>
+                <a href="https://www.youtube.com/@Travel_Time_Kids" target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/earth-asia-solid.svg" alt="Travel Time" width={24} height={24} />
+                </a>
+                <a href="https://www.imdb.com/name/nm2558438/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                  <Image src="/images/1_2.png" alt="IMDb" width={24} height={24} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -267,13 +285,21 @@ export default function Home() {
           <div>
             <Eyebrow>#about-me</Eyebrow>
             <H2 className="mt-3">A creative video content specialist</H2>
+            <blockquote className="text-lg md:text-xl leading-relaxed text-[var(--color-white-60)] italic border-l-4 border-[var(--color-purple)] pl-6 mt-8">
+              &ldquo;I&apos;ve always been fascinated by the effectiveness of
+              video content in overall communication. I&apos;ve seen how the power
+              of well-crafted content can transform how businesses and leaders
+              connect with their audiences.&rdquo;
+            </blockquote>
           </div>
-          <blockquote className="text-lg md:text-xl leading-relaxed text-[var(--color-white-60)] italic border-l-4 border-[var(--color-purple)] pl-6">
-            &ldquo;I&apos;ve always been fascinated by the effectiveness of
-            video content in overall communication. I&apos;ve seen how the power
-            of well-crafted content can transform how businesses and leaders
-            connect with their audiences.&rdquo;
-          </blockquote>
+          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+            <Image
+              src="/images/28.jpg"
+              alt="Eric Presnall on camera"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
       </Section>
 
