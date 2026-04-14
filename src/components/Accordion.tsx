@@ -11,16 +11,23 @@ export default function Accordion({ sections }: { sections: AccordionItem[] }) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <div className="space-y-3">
+    <div>
       {sections.map((section, i) => (
-        <div key={section.title} className="card-glow overflow-hidden">
+        <div
+          key={section.title}
+          className="border-b border-white/10 last:border-b-0"
+        >
+          {/* Heading bar — Webflow .dropdown-heading-bar */}
           <button
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
-            className="w-full flex items-center justify-between px-6 py-5 text-left"
+            className="w-full flex items-center justify-between py-5 text-left group"
           >
-            <span className="heading text-lg">{section.title}</span>
+            {/* Webflow .heading-h3.service-title: Oswald, 30px */}
+            <span className="font-[family-name:var(--font-heading)] text-[24px] md:text-[30px] font-medium text-[var(--color-white)]">
+              {section.title}
+            </span>
             <svg
-              className={`w-5 h-5 text-[var(--color-purple)] transition-transform ${
+              className={`w-5 h-5 text-[var(--color-purple)] transition-transform duration-300 ${
                 openIndex === i ? "rotate-180" : ""
               }`}
               fill="none"
@@ -36,6 +43,7 @@ export default function Accordion({ sections }: { sections: AccordionItem[] }) {
             </svg>
           </button>
 
+          {/* Dropdown content */}
           <div
             className={`grid transition-all duration-300 ${
               openIndex === i
@@ -44,15 +52,19 @@ export default function Accordion({ sections }: { sections: AccordionItem[] }) {
             }`}
           >
             <div className="overflow-hidden">
-              <div className="px-6 pb-6 space-y-4">
+              {/* Webflow .service-grid: 2-column grid */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-0 pb-6">
                 {section.items.map((item) => (
-                  <div key={item.name} className="flex gap-4">
-                    <div className="w-1 bg-[var(--color-purple)] rounded-full shrink-0" />
+                  <div key={item.name} className="flex gap-3 py-4 border-b border-white/5 last:border-b-0">
+                    {/* Webflow .list-dot */}
+                    <div className="w-1.5 h-1.5 mt-2.5 rounded-full bg-[var(--color-purple)] shrink-0" />
                     <div>
-                      <p className="font-semibold text-[var(--color-white)]">
+                      {/* Webflow .service-name: Barlow, 20px, 500 */}
+                      <p className="text-[18px] md:text-[20px] font-medium text-[var(--color-white)] leading-[150%]">
                         {item.name}
                       </p>
-                      <p className="text-sm text-[var(--color-white-60)] mt-1 leading-relaxed">
+                      {/* Webflow .paragraph: 18px, 150% */}
+                      <p className="text-base text-[var(--color-white-60)] mt-1 leading-[150%]">
                         {item.description}
                       </p>
                     </div>

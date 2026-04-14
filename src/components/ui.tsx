@@ -1,6 +1,12 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 
+/**
+ * Section container — matches Webflow .container
+ * Desktop: 100px top/bottom, 100px left/right, max-width 1300px
+ * Tablet: 80px top, 40px sides
+ * Mobile: 60px top, 20px sides
+ */
 export function Section({
   children,
   className = "",
@@ -20,21 +26,31 @@ export function Section({
   }[tone];
   return (
     <section id={id} className={`${toneClass} ${className}`}>
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-28">
+      <div className="mx-auto max-w-[1300px] px-5 py-[60px] md:px-10 md:py-20 lg:px-[100px] lg:py-[100px]">
         {children}
       </div>
     </section>
   );
 }
 
+/**
+ * Eyebrow — matches Webflow .title
+ * 18px, font-weight 500, accent color, Barlow
+ */
 export function Eyebrow({ children }: { children: ReactNode }) {
   return (
-    <span className="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-purple)]">
+    <span className="inline-block text-lg font-medium text-[var(--color-purple)]">
       {children}
     </span>
   );
 }
 
+/**
+ * H1 — matches Webflow .heading-h1
+ * Desktop: 60px / 600 weight / 120% line-height
+ * Tablet: 50px
+ * Mobile: 40px (v1 class)
+ */
 export function H1({
   children,
   className = "",
@@ -43,12 +59,20 @@ export function H1({
   className?: string;
 }) {
   return (
-    <h1 className={`heading text-5xl md:text-6xl lg:text-7xl ${className}`}>
+    <h1
+      className={`heading text-[40px] md:text-[50px] lg:text-[60px] font-semibold leading-[120%] ${className}`}
+    >
       {children}
     </h1>
   );
 }
 
+/**
+ * H2 — matches Webflow .heading-h2
+ * Desktop: 48px / 500 weight / 120% line-height
+ * Tablet: 42px
+ * Mobile: 32px
+ */
 export function H2({
   children,
   className = "",
@@ -57,12 +81,20 @@ export function H2({
   className?: string;
 }) {
   return (
-    <h2 className={`heading text-3xl md:text-4xl lg:text-5xl ${className}`}>
+    <h2
+      className={`heading text-[32px] md:text-[42px] lg:text-[48px] font-medium leading-[120%] ${className}`}
+    >
       {children}
     </h2>
   );
 }
 
+/**
+ * H3 — matches Webflow .heading-h3
+ * Default: 20px / 500 weight / 150% line-height / Barlow
+ * .bigger variant: Oswald 24px
+ * .service-title variant: Oswald 30px
+ */
 export function H3({
   children,
   className = "",
@@ -71,10 +103,18 @@ export function H3({
   className?: string;
 }) {
   return (
-    <h3 className={`heading text-xl md:text-2xl ${className}`}>{children}</h3>
+    <h3
+      className={`font-[family-name:var(--font-body)] text-[20px] font-medium leading-[150%] text-[var(--color-white)] ${className}`}
+    >
+      {children}
+    </h3>
   );
 }
 
+/**
+ * Lead paragraph — matches Webflow .paragraph (18px base)
+ * On tablet: 16px
+ */
 export function Lead({
   children,
   className = "",
@@ -84,7 +124,7 @@ export function Lead({
 }) {
   return (
     <p
-      className={`text-lg md:text-xl leading-relaxed text-[var(--color-white-60)] ${className}`}
+      className={`text-lg md:text-[18px] leading-[150%] text-[var(--color-white-60)] ${className}`}
     >
       {children}
     </p>
@@ -123,6 +163,12 @@ export function CTA({
   );
 }
 
+/**
+ * StatCard — matches Webflow .jambo-text.bold
+ * Number: Oswald, 34px, 500 weight, accent color
+ * Mobile: 26px / 600 weight
+ * Label: paragraph (18px)
+ */
 export function StatCard({
   value,
   label,
@@ -131,11 +177,11 @@ export function StatCard({
   label: string;
 }) {
   return (
-    <div className="card-glow p-6 text-center">
-      <div className="heading text-3xl md:text-4xl text-[var(--color-purple)]">
+    <div className="text-center">
+      <div className="heading text-[26px] md:text-[34px] font-medium text-[var(--color-purple)]">
         {value}
       </div>
-      <div className="text-sm text-[var(--color-white-60)] mt-2">{label}</div>
+      <p className="text-base md:text-lg text-[var(--color-white-60)] mt-2">{label}</p>
     </div>
   );
 }
@@ -157,7 +203,7 @@ export function ValueCard({
         </div>
       )}
       <h3 className="heading text-lg mb-2">{title}</h3>
-      <p className="text-sm text-[var(--color-white-60)] leading-relaxed">
+      <p className="text-base text-[var(--color-white-60)] leading-[150%]">
         {description}
       </p>
     </div>

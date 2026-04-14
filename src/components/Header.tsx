@@ -17,8 +17,8 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[var(--color-dark)]/90 backdrop-blur-md border-b border-white/5">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
+    <header className="fixed top-0 left-0 right-0 z-[900]">
+      <nav className="mx-auto flex max-w-[1300px] items-center justify-between px-5 py-6 md:px-10 lg:px-[100px]">
         {/* Logo */}
         <Link href="/">
           <Image
@@ -26,26 +26,29 @@ export default function Header() {
             alt="Eric Presnall"
             width={140}
             height={40}
-            className="h-8 w-auto"
+            className="h-8 w-auto mix-blend-difference"
           />
         </Link>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium tracking-wide transition-colors hover:text-[var(--color-purple)] ${
+              className={`relative py-1 px-2 text-[17px] font-medium transition-colors hover:text-[var(--color-purple)] ${
                 pathname === link.href
                   ? "text-[var(--color-purple)]"
-                  : "text-[var(--color-white-60)]"
+                  : "text-[var(--color-white)]"
               }`}
             >
               {link.label}
+              {pathname === link.href && (
+                <span className="absolute bottom-0 left-0 right-3 h-[2px] bg-[var(--color-purple)]" />
+              )}
             </Link>
           ))}
-          <Link href="/contact" className="btn-primary text-sm">
+          <Link href="/contact" className="btn-primary text-base ml-2">
             Contact Eric
           </Link>
         </div>
@@ -82,7 +85,7 @@ export default function Header() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className={`block py-3 text-sm font-medium tracking-wide ${
+              className={`block py-3 text-[17px] font-medium ${
                 pathname === link.href
                   ? "text-[var(--color-purple)]"
                   : "text-[var(--color-white-60)]"
@@ -94,7 +97,7 @@ export default function Header() {
           <Link
             href="/contact"
             onClick={() => setOpen(false)}
-            className="btn-primary text-sm mt-3 w-full text-center"
+            className="btn-primary text-base mt-3 w-full text-center"
           >
             Contact Eric
           </Link>

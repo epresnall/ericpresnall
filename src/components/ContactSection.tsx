@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 export default function ContactSection() {
   return (
     <section id="contact" className="bg-[var(--color-dark)] text-[var(--color-white)]">
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-28">
+      <div className="mx-auto max-w-[1300px] px-5 py-[60px] md:px-10 md:py-20 lg:px-[100px] lg:py-[100px]">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           <div>
             <Eyebrow>#contact</Eyebrow>

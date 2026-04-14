@@ -83,7 +83,7 @@ export default function Testimonials({
       id="referrals"
       className="bg-[var(--color-dark-lighter)] text-[var(--color-white)]"
     >
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-28">
+      <div className="mx-auto max-w-[1300px] px-5 py-[60px] md:px-10 md:py-20 lg:px-[100px] lg:py-[100px]">
         <div className="text-center mb-12">
           <Eyebrow>#referrals</Eyebrow>
           <H2 className="mt-3">
@@ -92,7 +92,8 @@ export default function Testimonials({
         </div>
 
         <div className="max-w-3xl mx-auto text-center min-h-[200px] flex flex-col justify-center">
-          <blockquote className="text-lg md:text-xl leading-relaxed text-[var(--color-white-60)] italic transition-opacity duration-500">
+          {/* Webflow .paragraph.review: 22px, 300 weight, centered */}
+          <blockquote className="text-[18px] md:text-[22px] font-light leading-[150%] text-[var(--color-white-60)] transition-opacity duration-500">
             &ldquo;{t.text}&rdquo;
           </blockquote>
           <div className="mt-8 flex items-center justify-center gap-4">

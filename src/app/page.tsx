@@ -229,35 +229,42 @@ const timeline = [
 export default function Home() {
   return (
     <>
-      {/* Hero */}
-      <section className="pt-28 pb-20 lg:pt-36 lg:pb-28">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative aspect-[3/4] max-w-md mx-auto lg:mx-0 rounded-2xl overflow-hidden">
+      {/* Hero — 100vh like Webflow */}
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <div className="mx-auto w-full max-w-[1300px] h-full px-5 pt-[140px] pb-0 md:px-10 lg:px-[100px] flex items-end overflow-hidden">
+          <div className="flex flex-col md:flex-row items-end justify-between w-full gap-8">
+            {/* Hero image — Webflow: 46% width, 80vh height, image is contain at 77% */}
+            <div className="relative w-full md:w-[46%] h-[350px] md:h-[80vh] flex items-end self-end">
               <Image
                 src="/images/image_2025_01_23T23_42_25_273Z.png"
                 alt="Eric Presnall"
                 fill
-                className="object-cover"
+                className="object-contain w-[77%] mx-auto"
                 priority
               />
             </div>
-            <div>
-              <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[var(--color-purple)] mb-4">
-                Entrepreneur | Entertainer | Educator
-              </p>
-              <H1>Eric Presnall</H1>
-              <Lead className="mt-6">
+
+            {/* Hero content */}
+            <div className="flex flex-col gap-5 pb-8 md:pb-16">
+              <div>
+                {/* Subtitle — Webflow: 24px, accent, 400 weight */}
+                <p className="text-[20px] md:text-[24px] font-normal text-[var(--color-purple)] leading-[120%] tracking-[0.4px] mb-4">
+                  Entrepreneur | Entertainer | Educator
+                </p>
+                <H1>Eric Presnall</H1>
+              </div>
+              <Lead>
                 A multi-talented professional bridging entertainment and business
                 through authentic video communication and storytelling
               </Lead>
-              <div className="grid grid-cols-3 gap-4 mt-10">
+              {/* Stats — Webflow .numbers-wrap: flex, space-between */}
+              <div className="flex gap-8 md:gap-12 mt-4">
                 {stats.map((s) => (
                   <StatCard key={s.label} value={s.value} label={s.label} />
                 ))}
               </div>
               {/* Social icons */}
-              <div className="flex items-center gap-4 mt-8">
+              <div className="flex items-center gap-4 mt-4">
                 <a href="mailto:eric@ericpresnall.com" className="w-8 h-8 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
                   <Image src="/images/envelope-regular.svg" alt="Email" width={24} height={24} />
                 </a>
@@ -280,33 +287,52 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <Section id="about-me" tone="darker">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
+      <Section id="about-me">
+        <div className="flex flex-col md:flex-row gap-12 items-start">
+          <div className="md:w-1/2">
             <Eyebrow>#about-me</Eyebrow>
             <H2 className="mt-3">A creative video content specialist</H2>
-            <blockquote className="text-lg md:text-xl leading-relaxed text-[var(--color-white-60)] italic border-l-4 border-[var(--color-purple)] pl-6 mt-8">
+            <div className="flex gap-4 mt-6">
+              <a href="mailto:eric@ericpresnall.com" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                <Image src="/images/envelope-regular.svg" alt="Email" width={24} height={24} />
+              </a>
+              <a href="https://www.linkedin.com/in/ericpresnall/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                <Image src="/images/Frame-1_1Frame-1.png" alt="LinkedIn" width={24} height={24} />
+              </a>
+              <a href="https://www.youtube.com/@VideoContentForBusiness" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                <Image src="/images/download-copy.png" alt="YouTube" width={24} height={24} />
+              </a>
+              <a href="https://www.youtube.com/@Travel_Time_Kids" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                <Image src="/images/earth-asia-solid.svg" alt="Travel Time" width={24} height={24} />
+              </a>
+              <a href="https://www.imdb.com/name/nm2558438/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+                <Image src="/images/1_2.png" alt="IMDb" width={24} height={24} />
+              </a>
+            </div>
+            <p className="text-lg leading-[150%] text-[var(--color-white-60)] italic mt-8 pr-0 md:pr-[60px]">
               &ldquo;I&apos;ve always been fascinated by the effectiveness of
               video content in overall communication. I&apos;ve seen how the power
               of well-crafted content can transform how businesses and leaders
               connect with their audiences.&rdquo;
-            </blockquote>
+            </p>
           </div>
-          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-            <Image
-              src="/images/28.jpg"
-              alt="Eric Presnall on camera"
-              fill
-              className="object-cover"
-            />
+          <div className="md:w-1/2">
+            <div className="relative aspect-[4/3] overflow-hidden">
+              <Image
+                src="/images/28.jpg"
+                alt="Eric Presnall on camera"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
       </Section>
 
       {/* Skills */}
-      <Section>
-        <div className="grid lg:grid-cols-2 gap-12">
-          <div>
+      <Section id="skills-v1">
+        <div className="flex flex-col lg:flex-row gap-12">
+          <div className="lg:w-2/5">
             <Eyebrow>#skills</Eyebrow>
             <H2 className="mt-3">Skills &amp; Expertise</H2>
             <Lead className="mt-4">
@@ -314,7 +340,9 @@ export default function Home() {
               capabilities built over two decades.
             </Lead>
           </div>
-          <Accordion sections={skillSections} />
+          <div className="lg:w-3/5 mt-0 lg:mt-[60px]">
+            <Accordion sections={skillSections} />
+          </div>
         </div>
       </Section>
 
@@ -351,7 +379,7 @@ export default function Home() {
                   <p className="text-xs text-[var(--color-white-60)] uppercase tracking-wider mt-1">
                     {item.location}
                   </p>
-                  <p className="text-sm text-[var(--color-white-60)] mt-3 leading-relaxed">
+                  <p className="text-base text-[var(--color-white-60)] mt-3 leading-[150%]">
                     {item.description}
                   </p>
                 </div>

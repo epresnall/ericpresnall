@@ -51,7 +51,8 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer className="bg-[var(--color-dark)] border-t border-white/5">
-      <div className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
+      {/* Webflow .container.footers: 60px top, 20px bottom */}
+      <div className="mx-auto max-w-[1300px] px-5 pt-10 pb-5 md:px-10 lg:px-[100px]">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           {/* Logo + tagline */}
           <div>
@@ -84,8 +85,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
-        <div className="mt-8 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[var(--color-white-60)]">
+        {/* Bottom bar — Webflow .paragraph.footer-text: 16px, 300 weight */}
+        <div className="mt-8 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm md:text-base font-light text-[var(--color-white-60)]">
           <p>Copyright &copy; {new Date().getFullYear()} Eric Presnall. All Rights Reserved.</p>
           <div className="flex gap-6">
             <Link href="/terms" className="hover:text-white transition-colors">
