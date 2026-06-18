@@ -1,0 +1,24 @@
+{
+  "name": "outreach-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agentic job-sourcing + personalized outreach pipeline for on-camera video presenter roles. Isolated from the ericpresnall website.",
+  "type": "module",
+  "scripts": {
+    "count": "tsx src/cli.ts count",
+    "pull": "tsx src/cli.ts pull",
+    "review": "tsx src/cli.ts review",
+    "send": "tsx src/cli.ts send",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.69.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

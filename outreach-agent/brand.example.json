@@ -1,0 +1,20 @@
+{
+  "name": "Eric Presnall",
+  "headline": "On-camera video presenter, spokesperson & host",
+  "valueProp": "End-to-end content presenter — research, scripting, and on-camera delivery. I turn a brief into finished, on-brand video without the agency overhead.",
+  "bio": "Short 2-3 sentence bio in Eric's voice. What he does, who he's done it for, what makes him a safe hire. FILL THIS IN.",
+  "wins": [
+    "Add a concrete result or recognizable brand/testimonial here.",
+    "Add another standout win here."
+  ],
+  "reelUrl": "https://ericpresnall.com",
+  "landingUrl": "https://ericpresnall.com/entertainer",
+  "calendarUrl": "https://cal.com/your-handle-here",
+  "tone": "Warm, confident, concise. Real and human — never salesy or stiff.",
+  "signoff": "Eric",
+  "canSpam": {
+    "fromName": "Eric Presnall",
+    "physicalAddress": "FILL IN: street, city, state, ZIP (legally required on cold email)",
+    "unsubscribeText": "Reply STOP and I won't reach out again."
+  }
+}
