@@ -1,0 +1,21 @@
+{
+  "name": "Eric Presnall",
+  "headline": "On-camera video spokesperson, presenter & host (VideoRep)",
+  "valueProp": "Not just a face on camera — I think like a marketer, strategist, and creative director, with a full team behind me. I take a brief end to end: research, scripting, and on-camera delivery. 24–48h turnaround, and a free script review is always included.",
+  "bio": "Eric Presnall — 20+ years in video and 6 years on Upwork as Top Rated Plus (Top 1% across 8 categories), with 500+ five-star projects for 250+ global brands including Microsoft, Facebook, Ahrefs, and Sony. Based in Los Angeles. Military veteran, HubSpot certified.",
+  "wins": [
+    "BusinessLoans.com: one UGC ad drove positive ROAS for 6 straight months — their best-performing creative ever.",
+    "Financial advisory firm: 3x conversion rate, 2.28x CTR, and CPA cut in half — campaign still running 7+ months later.",
+    "86,000+ organic views on a single educational video; 120+ production hours saved per quarter for content clients."
+  ],
+  "reelUrl": "https://videorep.co",
+  "landingUrl": "https://ericpresnall.com",
+  "calendarUrl": "REPLACE-ME: your Cal.com / Calendly booking link",
+  "tone": "Warm, confident, calm, and authentic — never salesy or corporate. Conversational, like a trusted expert talking to one person. Direct and value-first (slightly Hormozi-influenced). Clarity over cleverness, always.",
+  "signoff": "Eric",
+  "canSpam": {
+    "fromName": "Eric Presnall",
+    "physicalAddress": "REPLACE-ME: your mailing address, e.g. 123 Main St, Los Angeles, CA 90001 (legally required on cold email)",
+    "unsubscribeText": "Not the right fit? Reply 'unsubscribe' and I won't follow up."
+  }
+}

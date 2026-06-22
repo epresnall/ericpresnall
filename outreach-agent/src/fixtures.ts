@@ -1,0 +1,163 @@
+// Built-in sample jobs for offline testing (MOCK mode). A deliberate mix of
+// strong on-camera roles, OLD vs FRESH, hybrid, non-US, and clear non-fits
+// (editor/operator/animator) so the qualifier can be exercised end-to-end.
+import type { Job } from "./types.js";
+
+const daysAgo = (n: number) => new Date(Date.now() - n * 86_400_000).toISOString();
+
+export const SAMPLE_JOBS: Job[] = [
+  {
+    id: "fx-spokesperson-saas",
+    title: "Video Spokesperson for SaaS Explainer Series",
+    company: "Brightloop",
+    companyDomain: "brightloop.io",
+    location: "Remote (US)",
+    url: "https://example.com/jobs/brightloop-spokesperson",
+    description:
+      "We need an on-camera spokesperson to host a series of explainer videos for our B2B SaaS product. You'll present to camera, deliver scripts naturally, and represent the brand. Remote, US-based preferred.",
+    datePosted: daysAgo(4),
+    closedAt: null,
+    remote: true,
+    source: "fixture",
+  },
+  {
+    id: "fx-youtube-host-old",
+    title: "On-Camera Host for YouTube Channel",
+    company: "Northwind Media",
+    companyDomain: "northwindmedia.com",
+    location: "Remote, United States",
+    url: "https://example.com/jobs/northwind-host",
+    description:
+      "Seeking a charismatic on-camera host/presenter for our growing YouTube channel. Long-form educational content. Must be comfortable presenting to camera.",
+    datePosted: daysAgo(67),
+    closedAt: daysAgo(20),
+    remote: true,
+    source: "fixture",
+  },
+  {
+    id: "fx-ugc-ads",
+    title: "UGC Creator / On-Camera Talent for DTC Ads",
+    company: "Maple & Co",
+    companyDomain: "mapleandco.com",
+    location: "Remote (US)",
+    url: "https://example.com/jobs/maple-ugc",
+    description:
+      "Looking for UGC creators who can appear on camera in authentic ad-style videos (VSL / direct response) for our DTC brand. Conversion-focused.",
+    datePosted: daysAgo(9),
+    closedAt: null,
+    remote: true,
+    source: "fixture",
+  },
+  {
+    id: "fx-video-editor",
+    title: "Video Editor (After Effects / Premiere)",
+    company: "Cutroom Studios",
+    companyDomain: "cutroom.studio",
+    location: "Remote (US)",
+    url: "https://example.com/jobs/cutroom-editor",
+    description:
+      "Edit short-form videos in Premiere and After Effects. Color grading, motion graphics, sound design. This is a post-production editing role — no on-camera work.",
+    datePosted: daysAgo(6),
+    closedAt: null,
+    remote: true,
+    source: "fixture",
+  },
+  {
+    id: "fx-corp-spokesperson-hybrid",
+    title: "Corporate Spokesperson for Brand Video",
+    company: "Vanta Health",
+    companyDomain: "vantahealth.com",
+    location: "Hybrid — Austin, TX",
+    url: "https://example.com/jobs/vanta-spokesperson",
+    description:
+      "On-camera corporate spokesperson to front our brand video and internal comms. Hybrid role, some on-site days in Austin.",
+    datePosted: daysAgo(12),
+    closedAt: null,
+    remote: false,
+    source: "fixture",
+  },
+  {
+    id: "fx-camera-operator",
+    title: "Camera Operator / Videographer",
+    company: "Skyframe Productions",
+    companyDomain: "skyframe.tv",
+    location: "On-site — Denver, CO",
+    url: "https://example.com/jobs/skyframe-operator",
+    description:
+      "Operate cameras on set, manage lighting and audio, capture footage for client shoots. Behind-the-camera production role.",
+    datePosted: daysAgo(3),
+    closedAt: null,
+    remote: false,
+    source: "fixture",
+  },
+  {
+    id: "fx-webinar-host-closed",
+    title: "Webinar Host / Presenter",
+    company: "LeadEcho",
+    companyDomain: "leadecho.com",
+    location: "Remote (US)",
+    url: "https://example.com/jobs/leadecho-webinar",
+    description:
+      "Host live and recorded webinars as our on-camera presenter. Engaging delivery, teleprompter comfort. Position recently closed but we hire on a rolling basis.",
+    datePosted: daysAgo(85),
+    closedAt: daysAgo(10),
+    remote: true,
+    source: "fixture",
+  },
+  {
+    id: "fx-product-demo",
+    title: "Product Demo Presenter (SaaS)",
+    company: "Flowgrid",
+    companyDomain: "flowgrid.app",
+    location: "Remote (US)",
+    url: "https://example.com/jobs/flowgrid-demo",
+    description:
+      "Present human-led product demos and onboarding videos for our SaaS platform. On-camera, scripted, reduces support load. Training modules too.",
+    datePosted: daysAgo(2),
+    closedAt: null,
+    remote: true,
+    source: "fixture",
+  },
+  {
+    id: "fx-motion-designer",
+    title: "Motion Graphics Designer / Animator",
+    company: "Pixelforge",
+    companyDomain: "pixelforge.co",
+    location: "Remote (US)",
+    url: "https://example.com/jobs/pixelforge-motion",
+    description:
+      "Create animated explainers and motion graphics. After Effects, illustration, animation. No presenting — purely animation/design.",
+    datePosted: daysAgo(5),
+    closedAt: null,
+    remote: true,
+    source: "fixture",
+  },
+  {
+    id: "fx-brand-ambassador",
+    title: "Brand Ambassador (On-Camera) for Social",
+    company: "Lumen Drinks",
+    companyDomain: "lumendrinks.com",
+    location: "Remote (US)",
+    url: "https://example.com/jobs/lumen-ambassador",
+    description:
+      "On-camera brand ambassador / presenter for short-form social content. Be the face of the brand across Reels and TikTok.",
+    datePosted: daysAgo(15),
+    closedAt: null,
+    remote: true,
+    source: "fixture",
+  },
+  {
+    id: "fx-presenter-uk",
+    title: "Video Presenter (London, UK)",
+    company: "Thistle Media",
+    companyDomain: "thistlemedia.co.uk",
+    location: "London, United Kingdom (on-site)",
+    url: "https://example.com/jobs/thistle-presenter",
+    description:
+      "On-camera presenter for a London-based studio. Must be UK-based and able to work on-site in London.",
+    datePosted: daysAgo(8),
+    closedAt: null,
+    remote: false,
+    source: "fixture",
+  },
+];

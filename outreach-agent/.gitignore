@@ -1,7 +1,6 @@
 # Secrets — never commit
 .env
 .env.local
-brand.json
 
 # Pipeline output (leads, drafts, tracker state)
 data/*.json

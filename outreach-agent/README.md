@@ -42,6 +42,21 @@ npm run review   # how many leads await approval
 npm run send     # enroll APPROVED leads into Smartlead (gated; see below)
 ```
 
+## Try it with zero setup (offline mode)
+
+The whole pipeline runs on built-in sample jobs with **no API keys and no internet** —
+useful to see exactly what it produces and to verify changes:
+
+```bash
+npm test         # runs the pipeline on fixtures + asserts scoring/routing (26 checks)
+npm run mock     # full dry run on sample jobs → data/review.md
+```
+
+In mock mode every stage uses a deterministic offline fallback (a heuristic scorer +
+template drafts). The moment you add real keys, the same code calls TheirStack, Apollo,
+Claude, and Smartlead instead. Each stage also auto-falls-back to offline if its own key
+is missing, so partial setups still run.
+
 **Approval gate (Phase 1).** `pull` writes drafts to `data/review.md` and `data/tracker.json`. Read them. To approve a lead, set its `status` to `"approved"` in `data/tracker.json`. `send` only enrolls approved leads, only when `AUTO_SEND=true`, and never more than `DAILY_SEND_CAP` per run (protects your warmed inboxes). LinkedIn copy is drafted for you to send **manually**.
 
 ## Model & cost
@@ -58,6 +73,9 @@ At a few dozen jobs/day, expect cents per run on any of these. TheirStack on a 9
 
 ## Tuning accuracy
 
+- **Keywords:** organized by Eric's 4 GetMany buckets (Sales Funnel · Content Marketing ·
+  Product & Training · General/Spokesperson) in `BUCKETS` in `src/config.ts`. Edit a bucket
+  to add/remove search terms; `INCLUDE_TITLES` is auto-derived from them.
 - **Titles / niche breadth:** `INCLUDE_TITLES` and `EXCLUDE_HINTS` in `src/config.ts`.
 - **Window:** `WINDOW_DAYS` in `.env` (90 default; raise to 180 if volume is thin).
 - **Scoring rubric / tiers:** `SCORING_RUBRIC` in `src/config.ts`.
@@ -72,4 +90,11 @@ At a few dozen jobs/day, expect cents per run on any of these. TheirStack on a 9
 
 ## Status
 
-This is the v1 scaffold. Once your keys + `brand.json` are in, run `npm run count` to size the niche, then `npm run pull` for a full dry run you can review. Field names for TheirStack / Apollo / Smartlead are mapped defensively but should be confirmed against each provider's current API docs on first run.
+Working v1, tested offline (`npm test` → 26 passing). `brand.json` is pre-filled from
+Eric's GetMany briefing — just replace the two `REPLACE-ME` fields (booking link + mailing
+address). Keywords cover all 4 GetMany buckets.
+
+To go live: add `THEIRSTACK_API_KEY` (already confirmed ~509 real jobs in the live niche),
+then `APOLLO_API_KEY` and your Smartlead key + campaign IDs. Run `npm run count`, then
+`npm run pull`. Provider field mappings (TheirStack / Apollo / Smartlead) are defensive but
+should be confirmed against each provider's live API docs on the first real run.

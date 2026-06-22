@@ -4,8 +4,11 @@
 // their live API docs (https://theirstack.com/en/job-posting-api). The mapping
 // below is defensive so minor schema differences don't crash the pipeline.
 import { env, INCLUDE_TITLES, US_COUNTRY_CODES } from "./config.js";
+import { SAMPLE_JOBS } from "./fixtures.js";
 import type { Job } from "./types.js";
 import { createHash } from "node:crypto";
+
+const offline = () => env.mock || !env.theirstackKey;
 
 const API = "https://api.theirstack.com/v1/jobs/search";
 
@@ -51,6 +54,9 @@ async function call(body: unknown): Promise<any> {
 
 /** Lightweight count for the very first "how big is this niche?" check. */
 export async function countJobs(): Promise<{ total: number | null; sampleTitles: string[] }> {
+  if (offline()) {
+    return { total: SAMPLE_JOBS.length, sampleTitles: SAMPLE_JOBS.map((j) => j.title) };
+  }
   const json = await call(buildBody({ limit: 25 }));
   const data: any[] = json.data ?? json.results ?? [];
   const total = json.metadata?.total_results ?? json.total_results ?? null;
@@ -59,6 +65,7 @@ export async function countJobs(): Promise<{ total: number | null; sampleTitles:
 
 /** Full search → normalized Job[]. */
 export async function searchJobs(opts: SearchOpts = {}): Promise<Job[]> {
+  if (offline()) return SAMPLE_JOBS;
   const json = await call(buildBody(opts));
   const data: any[] = json.data ?? json.results ?? [];
   return data.map(normalize);

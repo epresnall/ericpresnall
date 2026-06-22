@@ -5,6 +5,7 @@ import { z } from "zod";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { env, loadBrand, paths, type Brand } from "./config.js";
+import { draftOffline } from "./offline.js";
 import type { Job, Contact, Draft, CopyTrack } from "./types.js";
 
 const client = new Anthropic({ apiKey: env.anthropicKey });
@@ -27,6 +28,9 @@ export async function draftOutreach(
   track: CopyTrack,
   brand: Brand = loadBrand(),
 ): Promise<Draft> {
+  // Offline / no-key path: deterministic template draft.
+  if (env.mock || !env.anthropicKey) return draftOffline(job, contact, track, brand);
+
   const footer = `\n\n— ${brand.signoff}\n${brand.canSpam.fromName} · ${brand.canSpam.physicalAddress}\n${brand.canSpam.unsubscribeText}`;
 
   const res = await client.beta.messages.parse({

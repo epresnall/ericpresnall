@@ -32,29 +32,87 @@ export const env = {
   smartleadCampaignFresh: process.env.SMARTLEAD_CAMPAIGN_ID_FRESH ?? "",
   dailySendCap: Number(process.env.DAILY_SEND_CAP || 15),
   autoSend: (process.env.AUTO_SEND || "false").toLowerCase() === "true",
+  // Offline mode: run the full pipeline on built-in fixtures with no network /
+  // no API keys. Each stage also auto-falls-back to offline if its key is absent.
+  mock: (process.env.MOCK || "false").toLowerCase() === "true",
 };
 
-// --- Job-title taxonomy (Agent 1 filter; Agent 2 refines) ---
-export const INCLUDE_TITLES = [
-  "video presenter",
-  "video spokesperson",
-  "spokesperson",
-  "on-camera host",
-  "on camera talent",
-  "on-air talent",
-  "video host",
-  "presenter",
-  "brand spokesperson",
-  "corporate spokesperson",
-  "ugc creator",
-  "ugc actor",
-  "explainer video presenter",
-  "video brand ambassador",
-  "demo presenter",
-  "pitch presenter",
-  "webinar host",
-  "video narrator",
-];
+// --- Job-title taxonomy, organized by Eric's GetMany buckets ---
+// (Sourced from the GetMany briefing in Notion: the 4 buckets GetMany sorts
+// on-camera video jobs into. The flat INCLUDE_TITLES below is what Agent 1
+// sends to TheirStack; Agent 2 then confirms true on-camera fit + bucket.)
+export const BUCKETS: Record<string, string[]> = {
+  // 1 — Sales Funnel: ads, VSLs, conversion-focused, book-a-call CTA
+  salesFunnel: [
+    "video sales letter",
+    "VSL presenter",
+    "VSL spokesperson",
+    "ad spokesperson",
+    "ad presenter",
+    "UGC ad creator",
+    "direct response presenter",
+    "sales video presenter",
+    "advertising spokesperson",
+    "commercial spokesperson",
+    "pitch presenter",
+  ],
+  // 2 — Content Marketing: YouTube, social, short-form, e-learning, organic
+  contentMarketing: [
+    "content creator",
+    "video content creator",
+    "UGC creator",
+    "UGC actor",
+    "YouTube host",
+    "YouTube presenter",
+    "short-form video creator",
+    "social media video presenter",
+    "TikTok creator",
+    "video podcast host",
+    "educational video presenter",
+    "e-learning presenter",
+    "course instructor on camera",
+  ],
+  // 3 — Product & Training: SaaS demos, onboarding, support, training
+  productTraining: [
+    "product demo presenter",
+    "SaaS demo presenter",
+    "demo presenter",
+    "onboarding video host",
+    "training video presenter",
+    "tutorial presenter",
+    "software walkthrough presenter",
+    "explainer video presenter",
+  ],
+  // 4 — General / Spokesperson: any on-camera not clearly 1–3
+  generalSpokesperson: [
+    "video spokesperson",
+    "spokesperson",
+    "brand spokesperson",
+    "corporate spokesperson",
+    "video presenter",
+    "presenter",
+    "on-camera host",
+    "on camera host",
+    "on-camera talent",
+    "on camera talent",
+    "on-air talent",
+    "video host",
+    "video brand ambassador",
+    "brand ambassador",
+    "talking head",
+    "video narrator",
+    "webinar host",
+    "virtual presenter",
+    "commercial actor",
+    "brand actor",
+    "video emcee",
+  ],
+};
+
+// Flattened + de-duplicated list for the scraper.
+export const INCLUDE_TITLES = Array.from(
+  new Set(Object.values(BUCKETS).flat()),
+);
 
 // Surfaced to the Qualifier so it can drop near-misses (editor/operator roles).
 export const EXCLUDE_HINTS = [

@@ -4,6 +4,7 @@
 // Free tier has limited credits; Smartlead verifies the email before sending,
 // so we don't run a separate verifier here.
 import { env } from "./config.js";
+import { mockContact } from "./offline.js";
 import type { Job, Contact } from "./types.js";
 
 const PEOPLE_SEARCH = "https://api.apollo.io/v1/mixed_people/search";
@@ -21,8 +22,8 @@ const TITLE_PRIORITY = [
 ];
 
 export async function enrichContact(job: Job): Promise<Contact> {
-  if (!env.apolloKey) {
-    return { emailStatus: "skipped:no-apollo-key" };
+  if (env.mock || !env.apolloKey) {
+    return mockContact(job);
   }
   if (!job.companyDomain && !job.company) {
     return { emailStatus: "skipped:no-company" };

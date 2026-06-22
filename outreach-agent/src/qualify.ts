@@ -3,6 +3,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import { z } from "zod";
 import { env, SCORING_RUBRIC, EXCLUDE_HINTS } from "./config.js";
+import { scoreOffline } from "./offline.js";
 import type { Job, Qualification } from "./types.js";
 
 const client = new Anthropic({ apiKey: env.anthropicKey });
@@ -22,6 +23,9 @@ const QualSchema = z.object({
  * the model confirms it. Returns a structured Qualification.
  */
 export async function qualifyJob(job: Job): Promise<Qualification> {
+  // Offline / no-key path: deterministic heuristic scorer.
+  if (env.mock || !env.anthropicKey) return scoreOffline(job);
+
   const seededFreshness = inferFreshness(job);
 
   const res = await client.beta.messages.parse({

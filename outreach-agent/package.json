@@ -9,6 +9,8 @@
     "pull": "tsx src/cli.ts pull",
     "review": "tsx src/cli.ts review",
     "send": "tsx src/cli.ts send",
+    "mock": "MOCK=true tsx src/cli.ts pull",
+    "test": "tsx src/test.ts",
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
