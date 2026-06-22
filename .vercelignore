@@ -1,0 +1,3 @@
+# Keep the standalone outreach-agent (its own package.json + lockfile) out of the
+# website's Vercel build so it can't confuse Next.js workspace-root detection.
+outreach-agent
