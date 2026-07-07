@@ -7,3 +7,4 @@ When this log reaches ~24 entries, the loop stops itself. User can stop anytime 
 | # | what improved |
 |---|---|
 | 0 | Seed — set up spec, first batch (11 roles incl. Care.com 12-mo anchor), playbooks, START-HERE. |
+| 1 | Sourcing sweep: added recurring Live-Shopping Host (TikTok Shop/Whatnot luxury resale) as anchor-shaped Tier 2; dropped video-editor roles (behind camera) — confirmed dedupe discipline. |
