@@ -1,10 +1,10 @@
 # Conversation playbook — reply → retainer
 
 Goal of every message once a prospect replies: move from "one video" to "you own our video."
-**Fill in the booking link** (Cal.com/Calendly) — it's `[BOOKING LINK]` below until Eric provides it.
+Booking link (set): **https://cal.com/videorep/eric-presnall-contact-call**
 
 ### Message 1 — they reply "interested / tell me more"
-> Hey [Name] — great to hear from you. Short version: yes, I'd love to jump in. I've done 500+ of these for brands from Microsoft to Sony, and I take it end to end — script, delivery, the works — so it's genuinely off your plate. Easiest next step is a quick 15 minutes so I can hear what you're going for, and I'll record a **free sample from your script**. Grab a time 👉 [BOOKING LINK]. Or see the reel first: https://videorep.co
+> Hey [Name] — great to hear from you. Short version: yes, I'd love to jump in. I've done 500+ of these for brands from Microsoft to Sony, and I take it end to end — script, delivery, the works — so it's genuinely off your plate. Easiest next step is a quick 15 minutes so I can hear what you're going for, and I'll record a **free sample from your script**. Grab a time 👉 https://cal.com/videorep/eric-presnall-contact-call. Or see the reel first: https://videorep.co
 
 ### Message 2 — they only want the one gig (start-small, grow-big)
 > Totally happy to start with just [the video] — no pressure beyond that. One thing worth knowing: a lot of brands bring me in for one video and it turns into me handling their ongoing content — it's just easier to have one person who knows your voice and turns things around in 24–48h. So let's start with [the gig] — and if it clicks, we make it regular. Sound good?

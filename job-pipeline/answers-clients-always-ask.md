@@ -16,8 +16,8 @@ into your cover letter and your first reply so nobody has to ask.)
 ---
 
 ## Drop this block into every cover letter (pre-empts all three)
-> Quick answers up front so we skip the back-and-forth: **it's me on camera every time**, I'm **US-based (Los Angeles), fully remote**, single videos start around **$800** (most brands move to a monthly package), and I bring a **full team** so it's the finished product, not just talent. Free sample from your script before you commit — reel 👉 https://videorep.co · book a quick call 👉 [BOOKING LINK]
+> Quick answers up front so we skip the back-and-forth: **it's me on camera every time**, I'm **US-based (Los Angeles), fully remote**, single videos start around **$800** (most brands move to a monthly package), and I bring a **full team** so it's the finished product, not just talent. Free sample from your script before you commit — reel 👉 https://videorep.co · book a quick call 👉 https://cal.com/videorep/eric-presnall-contact-call
 
 ## When a warm reply comes in (like Ben)
 Reply **within the hour** (3x more likely to hire). Answer the three, offer the free sample, push to a call:
-> Hey [Name] — great questions, quick answers: [it's me / LA, remote / ~$800 a video, monthly packages after]. Easiest is a 15-min call — I'll even record a free sample from your script first so you can hear it. Grab a time 👉 [BOOKING LINK]
+> Hey [Name] — great questions, quick answers: [it's me / LA, remote / ~$800 a video, monthly packages after]. Easiest is a 15-min call — I'll even record a free sample from your script first so you can hear it. Grab a time 👉 https://cal.com/videorep/eric-presnall-contact-call

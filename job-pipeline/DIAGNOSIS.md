@@ -1,8 +1,12 @@
-# Why you're not getting callbacks — a data-driven diagnosis
+# What we can learn from your Upwork channel (lessons transfer to off-Upwork)
 
-Pulled from your real Gmail (GetMany/Upwork proposals + weekly stats + LinkedIn alerts).
-Bottom line: **your leak is not sourcing and not your reply rate — it's the follow-up.**
-Warm replies are landing in your inbox and dying before they become a call.
+> **Scope note:** This analysis is drawn from your **Upwork/GetMany** history — that was the only
+> place you had a real body of applications to study. Upwork is your *other* system, NOT this one.
+> "Ben," "Kickstarter," etc. are Upwork proposals — ignore them as targets here. What's valuable
+> are the **transferable lessons** below, which we apply to your off-Upwork business applications.
+
+Bottom line lesson: **the leak is the follow-up + underselling, not sourcing.**
+Warm replies die before they become a call — and the same mistakes would sink off-Upwork apps too.
 
 ## The evidence
 

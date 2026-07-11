@@ -1,6 +1,6 @@
 # Eric Presnall — On-Camera Video Spokesperson, Presenter & Host
 
-**Los Angeles, CA (remote, worldwide)** · eric@ericpresnall.com · Reel: https://videorep.co · LinkedIn: /in/ericpresnall · IMDb: nm2558438
+**Los Angeles, CA (remote, worldwide)** · eric@ericpresnall.com · Reel: https://videorep.co · Book a call: https://cal.com/videorep/eric-presnall-contact-call · LinkedIn: /in/ericpresnall · IMDb: nm2558438
 
 > Accurate, consistent credentials — use these everywhere (fixes the understated "200+ B2B brands since 2015" line). Keep it truthful; these are your real numbers.
 

@@ -12,8 +12,8 @@
 ### The one thing that 10x's your odds
 Record **one evergreen 45–60s intro video** (reuse on every application) + a custom sample for each Tier-1 anchor (scripts are in the batch). You're a 20-year on-camera pro — a text-only application wastes your biggest edge.
 
-### Still owed (unlocks the CTA everywhere)
-- Your **Cal.com / Calendly booking link** → replaces `[BOOKING LINK]` in every message.
+### Booking link — now set ✓
+- **https://cal.com/videorep/eric-presnall-contact-call** is baked into every cover letter + message. (If you have a separate personal *ericpresnall.com* booking link, send it and I'll swap it in.)
 
 ### Files
 - `2026-06-30-batch.md` — ranked jobs + full application packs

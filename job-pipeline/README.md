@@ -1,8 +1,17 @@
 # Off-Upwork Inbound Job Engine — Build Spec
 
-The permanent home for Eric's **off-Upwork** on-camera job sourcing. This mirrors the
-existing Upwork/GetMany agent, but hunts the territory Upwork can't see: companies posting
-on-camera roles on LinkedIn, Indeed, Glassdoor, Built In, casting sites, and company pages.
+> ## ⛔ SCOPE — READ FIRST
+> **This system is NOT for Upwork.** Upwork is already handled by Eric's separate GetMany +
+> "Upwork sweep" agent (which emails him daily). This system is **100% OFF-Upwork**: real
+> employer/business job postings for **video presenter / video spokesperson / on-camera host /
+> creator** roles. Sources = **LinkedIn, Greenhouse, Ashby, Lever, Wellfound, Seek, Built In,
+> company career pages, casting sites**. Never Upwork/GetMany. If a task mentions Upwork
+> proposals, Connects, GetMany, or clients like "Ben/Kickstarter" — that's the *other* system;
+> ignore it here.
+
+The permanent home for Eric's **off-Upwork** on-camera job sourcing — the territory his Upwork
+agent can't see: businesses posting on-camera roles on LinkedIn, Greenhouse, Ashby, Lever,
+Wellfound, Seek, Built In, casting sites, and company career pages.
 
 **Goal (the north star):** land **3 anchor clients on ongoing retainers, ~$5–15K/mo each,
 ~12 months.** Everything here is ranked and worded to serve that — not to chase one-off gigs.
@@ -71,8 +80,16 @@ Also read Eric's inbound LinkedIn job alerts (labelled in Gmail) for "video spok
 
 ## 5. Materials templates
 
+> **★ Cover-letter rule #1 — make it ABOUT THEM.** Open on the company: what they do, what
+> they're building, the specific need in the posting. Show you actually read it and get their
+> world. *Then* earn the right to talk about Eric (sentence 2+). Ratio ~60% them / 40% him.
+> Bad: "I'm a spokesperson with 20 years…" Good: "[Company] is scaling [X] with video, and the
+> hard part is a face people trust — that's exactly the gap I fill."
+
 ### Cover letter (per bucket opener, then tailor)
 Start with the company/role — **never** "I" or "Dear." End pointing to the reel with 👉. Keep it tight.
+Bake in the pre-answers (it's-me / US-remote / ~$800→monthly package) + booking link
+(https://cal.com/videorep/eric-presnall-contact-call) so leads never stall — see `answers-clients-always-ask.md`.
 - **B1 Sales Funnel:** "[Name/Company] — human-led, direct-response video that converts is exactly what I do…"
 - **B2 Content:** "[Company] — I help brands build audiences with human-led content that compounds…"
 - **B3 Product/Training:** "[Company] — human-led demos/onboarding cut churn and support time…"
