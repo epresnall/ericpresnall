@@ -3,9 +3,12 @@
 **Goal:** 3 anchor clients on ongoing retainers (~$5–15K/mo, ~12 months). Not gigs — anchors.
 
 ### Your 20-minute morning routine
-1. Open **`2026-06-30-batch.md`** (or the newest dated batch). Start at **Tier 1**.
-2. **Priority #1 today: Care.com "Creator in Residence"** — 12-month remote on-camera contract. Apply first.
-3. For each Tier 1 job: click the link → paste the **cover letter** → answer the **questions** (already drafted) → attach/link your **video** (see below).
+1. Open **`2026-07-13-live-batch.md`** (newest — 12 ranked leads with full packs).
+2. **Click-verify the top 3 first** (Grüns · Care.com · LumiMeds). ⚠️ I can't confirm links are live
+   from my environment (network policy blocks it — that's why links have 404'd). If a link's dead,
+   search "role + company" and apply on whatever live URL you find; the pack still works.
+3. For each live job: pick the mapped **resume** from `files/` → paste the **cover letter** →
+   answer the **questions** (drafted) → link your **reel** clip. ~2 min each.
 4. When someone replies → open **`playbooks/conversation.md`** → send Message 1 → book the call → convert to a monthly retainer. **Never quote hourly.**
 5. Spare 10 min? Work **`playbooks/warm-intro.md`** — DM one recently-closed role (start: Penske Media).
 
