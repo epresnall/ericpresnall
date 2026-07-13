@@ -15,6 +15,15 @@ Record **one evergreen 45–60s intro video** (reuse on every application) + a c
 ### Booking link — now set ✓
 - **https://cal.com/videorep/eric-presnall-contact-call** is baked into every cover letter + message. (If you have a separate personal *ericpresnall.com* booking link, send it and I'll swap it in.)
 
+### 🆕 Your ready-to-go application kit (built from deep research — read `RESUME-STRATEGY.md` first)
+- **`RESUME-STRATEGY.md`** — the whole playbook: resume rules, tailor-per-job (6x interviews), which jobs/titles to search, how it all fits.
+- **`resume.md`** — your ATS-optimized on-camera resume (paste-ready; export to .docx to upload).
+- **`cover-letter-template.md`** — the "about them" cover letter: fill-in template + 2 worked examples.
+- **`ai-prompt-screening-answers.md`** — paste this into any AI to answer application questions in your voice.
+- **`portfolio-reel-guide.md`** — what videos/reel/portfolio employers want to see.
+
+**The 15-min per-job workflow** (in `RESUME-STRATEGY.md` §2): paste the JD → get 3 resume tweaks + the cover letter + screening answers → attach the matching reel clip → submit.
+
 ### Files
 - `2026-06-30-batch.md` — ranked jobs + full application packs
 - `README.md` — how the engine works (for automating it)

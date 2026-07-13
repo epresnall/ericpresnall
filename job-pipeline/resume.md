@@ -1,34 +1,65 @@
-# Eric Presnall — On-Camera Video Spokesperson, Presenter & Host
+# Eric Presnall
 
-**Los Angeles, CA (remote, worldwide)** · eric@ericpresnall.com · Reel: https://videorep.co · Book a call: https://cal.com/videorep/eric-presnall-contact-call · LinkedIn: /in/ericpresnall · IMDb: nm2558438
+**On-Camera Video Spokesperson · Presenter · Host**
 
-> Accurate, consistent credentials — use these everywhere (fixes the understated "200+ B2B brands since 2015" line). Keep it truthful; these are your real numbers.
+Los Angeles, CA — Remote (worldwide) · eric@ericpresnall.com · Demo reel: https://videorep.co · LinkedIn: linkedin.com/in/ericpresnall · IMDb: nm2558438 · Book a call: https://cal.com/videorep/eric-presnall-contact-call
 
-## Summary
-On-camera video spokesperson, presenter and host with **20+ years** in front of the lens. **Upwork Top Rated Plus — Top 1% across 8 categories**, with **500+ five-star projects** for **250+ global brands** including **Microsoft, Facebook, Ahrefs, and Sony**. Not just a face on camera: I take a brief end-to-end — research, scripting, and delivery — with a full production team behind me. 24–48h turnaround; free script review included. Military veteran; HubSpot certified.
+---
 
-## What I do
-- **On-camera:** ads/VSLs, UGC, spokesperson, brand host, explainer, product demos, e-learning, live shopping.
-- **End-to-end:** scripting + strategy + delivery (I read the analytics and tell you what's working).
-- **Formats:** short-form (TikTok/Reels/Shorts), YouTube/long-form, corporate, commercial, hosting.
+## Professional Summary
 
-## Selected results (anonymize brand names on camera)
-- One UGC ad → **positive ROAS for 6 straight months** (client's best-performing creative).
-- Financial-advisory campaign → **3x conversion rate, 2.28x CTR, CPA cut in half**, running 7+ months.
-- **86,000+ organic views** on a single educational video · **120+ production hours saved/quarter** for content clients.
+On-camera video spokesperson, presenter, and host with 20+ years in front of the lens, specializing in remote-delivered video for brands, agencies, and content teams. I take a brief end to end — research, scripting, teleprompter delivery, and final video — with a full production team behind me, so a single request comes back a finished, on-brand video in 24–48 hours. Recognized as an Upwork Top Rated Plus talent (Top 1% across 8 categories) with 500+ five-star projects for 250+ global brands including Microsoft, Facebook, Ahrefs, and Sony. Comfortable across ads/VSLs, UGC, spokesperson, brand hosting, explainer, product demos, e-learning, and live shopping. U.S. military veteran; HubSpot certified.
 
-## Experience (highlights)
-- **Founder & On-Camera Talent, VideoRep / The Spokesman** (2021–present) — six-figure video content business; Fortune 500 clients incl. Unilever, Microsoft, Ahrefs.
-- **Creator & Host, Travel Time** (2024–present) — educational travel show.
-- **Host / Brand Ambassador, Animal Planet — "Who Let the Dogs Out"** (2011) — Natural Balance; Times Square, Grand Ole Opry, Dodgers Stadium.
-- **Broadway National Tours** — *Mamma Mia* (Sky, lead, all 50 states + intl), *American Idiot* (2013–14).
+---
+
+## Core Skills & Keywords
+
+On-camera presentation · Video spokesperson · On-camera host · Video presenter · Teleprompter delivery · Scriptwriting · UGC (user-generated content) · Brand ambassador · Product demos · Explainer videos · VSL (video sales letters) · Short-form video (TikTok / Reels / Shorts) · YouTube / long-form · Live shopping · E-learning presentation · Content strategy · Remote video production · Broadcast home studio (Sony A7III) · Adobe Premiere Pro · After Effects · Final Cut Pro · DaVinci Resolve · Frame.io remote workflows · Public speaking · Improvisation · Voiceover
+
+---
+
+## On-Camera Experience
+
+**Founder & On-Camera Talent — VideoRep / The Spokesman** (2021–Present) · Remote
+- Built a six-figure video-content business as the on-camera face for 250+ global brands, from startups to Fortune 500 (Unilever, Microsoft, Ahrefs).
+- Deliver end to end: intake brief → script → teleprompter delivery → edited video, 24–48h turnaround, free script review included.
+- 500+ five-star engagements; Upwork Top Rated Plus, Top 1% across 8 categories.
+
+**Creator & Host — "Travel Time"** (2024–Present) · Remote
+- Host and creator of an educational travel show; write, present, and drive the on-camera format.
+
+**Host / Brand Ambassador — Animal Planet, "Who Let the Dogs Out"** (2011)
+- On-camera brand host for Natural Balance; live activations at Times Square, Grand Ole Opry, and Dodger Stadium.
+
+**Start Smart Program Lead — Commonwealth Bank** (2017)
+- On-camera and in-person presenter for a national youth financial-literacy program.
+
+---
+
+## Selected Results
+
+- One UGC ad delivered positive ROAS for 6 straight months — the client's best-performing creative.
+- Financial-advisory campaign: 3x conversion rate, 2.28x CTR, CPA cut in half; ran 7+ months.
+- 86,000+ organic views on a single educational video.
+- Saved content clients 120+ production hours per quarter by owning script-to-delivery.
+
+---
+
+## Stage, Screen & Commercial
+
+- **Broadway National Tours** — *Mamma Mia!* (Sky, lead; all 50 states + international), *American Idiot* (2013–14).
 - **National Commercials** — National Guard, KFC, Caltrans, Cal Grant.
 - **Disney Performer** — *High School Musical: La Fête*, Disneyland Paris (2009).
-- **Independent Filmmaker — *Amusia*** (2016) — wrote/directed/produced; $40K Kickstarter; Best Short Film, Sacramento Film & Music Festival.
-- **Start Smart Program Lead, Commonwealth Bank** (2017) — youth financial-literacy presenting.
+- **Independent Filmmaker — *Amusia*** (2016) — wrote, directed, produced; funded a $40K production budget; Best Short Film, Sacramento Film & Music Festival.
 
-## Skills & tech
-On-camera presentation · teleprompter · scriptwriting · content strategy · Sony A7III + broadcast home studio · Adobe Premiere/After Effects, Final Cut, DaVinci Resolve · Frame.io/remote workflows.
+---
 
-## Education & credentials
-B.S. Psychology, Macquarie University · HubSpot certified · U.S. military veteran.
+## Education & Credentials
+
+- B.S. Psychology — Macquarie University
+- HubSpot Certified
+- U.S. Military Veteran
+
+---
+
+*Note: brand names are anonymized on camera when a client requires it. References and full reel available on request.*
