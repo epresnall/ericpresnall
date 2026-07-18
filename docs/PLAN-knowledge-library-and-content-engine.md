@@ -1,142 +1,135 @@
-# Master Plan: Knowledge Library + Content Engine
+# Master Plan: Second Brain + Content Engine (v2)
 
-Captured 2026-07-18 from Eric's voice notes. This is the organizing document — nothing here
-has been executed yet. Two projects, plus a parking lot for the "couple other things" that
-may come later.
+Captured 2026-07-18 from Eric's voice notes (two memos). Restructured per memo #2 into
+four projects. Priority order changed: the Second Brain is now urgent (Eric wants it
+worked out before the Fable model sunset, believed to be ~tomorrow), and Topic Research
+now comes first among the content projects.
 
----
-
-## Project 1 — The Living Knowledge Library (Notion)
-
-### The problem
-Eric's editor wants everything centralized in Notion: full context, the whole library —
-emails and how he responds to them, YouTube channel edits, documents describing his
-expertise and how it works. Today the only persistent context is a single MD file in this
-repo. There is no dedicated library that keeps adding and keeps learning.
-
-### The goal
-One Notion workspace that acts as a second brain: it holds Eric's expertise, voice, and
-history; it grows on a schedule instead of by heroic effort; and both Eric's editor and
-Claude can draw on it as shared context.
-
-### Source inventory (to confirm in Interview Round 1)
-- **Gmail** — how Eric responds to inquiries, pricing conversations, client threads →
-  distill into a voice/tone guide and an email playbook (Claude has Gmail access in
-  sessions like this one).
-- **YouTube channel** — published videos, descriptions, edit decisions/notes.
-- **Expertise documents** — the docs describing how Eric's expertise works (location TBD:
-  Drive? local? scattered?).
-- **This website repo** — positioning and copy (educator / entertainer / entrepreneur).
-- **Beehiiv newsletter** — past posts are a voice and topic archive (connected).
-- **HubSpot CRM** — clients, deals, history (connected).
-- **Slack / Calendar** — secondary context (connected).
-
-### Proposed Notion structure (v1 skeleton)
-1. **Home dashboard** — what's here, what's new, what needs Eric's input.
-2. **Expertise & POV** — positioning, process, pricing philosophy, opinions.
-3. **Voice & Style Guide** — distilled from real emails + newsletter posts.
-4. **Email Playbook** — response patterns by scenario (inquiry, pricing, scope, decline).
-5. **Content Engine** — databases for Ideas → Scripts → Published (shared with Project 2).
-6. **Reference Library** — best-in-class ads, awards, pricing benchmarks (fed by Project 2).
-7. **Projects & Clients** — history and outcomes.
-8. **Brain Dumps / Interview Log** — every voice note or interview, transcribed and
-   distilled into the sections above.
-
-### Build phases & time estimate
-- **Phase 0 — Interview Round 1 + source audit.** Eric answers the questions below
-  (voice memo is fine). ~1 hour of Eric's time.
-- **Phase 1 — Skeleton.** Claude builds the Notion structure. 1 working session.
-- **Phase 2 — Ingestion.** Sweep Gmail for response patterns, pull newsletter archive,
-  import expertise docs Eric shares, mine the site copy. 2–4 sessions over 1–2 weeks
-  (email access will be confirmed with Eric before the sweep).
-- **Phase 3 — Expertise extraction.** Recurring short interviews (20–30 min each, 4–6
-  total) where Claude asks pointed questions and files the answers.
-- **Phase 4 — The learning loop.** A scheduled weekly routine: sweep new emails/content,
-  propose additions, Eric approves. This is what makes it "keep adding and keep learning."
-
-**Estimate: functional library in ~1–2 weeks; genuinely rich in ~4–6 weeks with light
-ongoing effort. Steady state: ~30 min/week from Eric.**
-
-### Outside-the-box ideas
-- **Voice-memo pipeline:** Eric already thinks out loud like this. Every voice note gets
-  transcribed, distilled, and filed — the library grows the way Eric naturally works.
-- **Editor view:** a curated shared page giving the editor exactly the context they asked
-  for, without exposing the whole workspace.
-- **Email playbook → product:** once response patterns are documented, they can power
-  site FAQ copy, proposal templates, or semi-automated replies.
-- **Compounding with Project 2:** every content episode produces research (award data,
-  pricing benchmarks) that files into the Reference Library automatically.
-
-### Interview Round 1 — questions for Eric
-1. Where do your expertise docs live today, and which 3–5 matter most?
-2. What's the current state of your Notion? Does your editor have a structure in mind,
-   or do we design it?
-3. Who uses this library — just you + Claude, or editor/team too?
-4. Which YouTube channel(s), and where do the edit notes/decisions currently live?
-5. Are you comfortable with Claude sweeping your Gmail to extract response patterns?
-6. What does "learning" mean to you here — weekly digest to approve, or fully automatic?
+Known anchors:
+- Business: VideoRep — done-for-you video production for business (tech/AI lean).
+- YouTube: @VideoContentForBusiness (business channel); @Travel_Time_Kids (separate).
+- LinkedIn: linkedin.com/in/ericpresnall
+- Notion recon (2026-07-18): workspace is NOT empty. Existing assets found:
+  - Teamspace **VideoRep HQ** (Eric is owner)
+  - Page **"VideoRep - Content OS"** (Dec 2025) — a prior weekly-machine attempt
+  - Database **"Video Projects"**
+  - Page **"🧠 EA Briefing Hub — Daily Command Centre"**
+  - Page **"🎬 Eric Presnall — Complete GetMany Briefing & Video Scripts"**
+  - Blog pages (with pricing: BUILD $1,900/video 2/mo, GROW $1,700/video 4/mo, SCALE …)
+    and VideoRep script/clip pages
+  → The Second Brain is a **consolidation + gap-fill job, not a greenfield build.**
 
 ---
 
-## Project 2 — Content Engine: Award-Winning Ad Breakdowns
+## Project 1 — Second Brain (Notion) — URGENT
 
-### The concept
-Weekly (maybe daily) content reviewing the best of the best in business video —
-award-winning commercials, explainer videos, support/product videos. The hook: **people's
-biggest pain point is not knowing what video costs or what goes into making it.** Eric
-reviews top-tier work, breaks down what went into it, guesstimates the price, and gives
-his two cents.
+**Goal:** One living Notion library holding Eric's full context — expertise, voice,
+email response patterns, YouTube edit decisions, script research — that keeps adding
+and keeps learning, and that his editor can work from.
 
-Hard constraints: it must be **video**, and it must be **for business**.
+**Deadline pressure:** Eric wants this worked out before the Fable model goes away
+(~tomorrow). Note: everything written into Notion and this repo persists regardless of
+model — the real deadline risk is *uncaptured context in Eric's head*, so capture-first.
 
-### The rating framework — "the five things that make a video" (draft, for Eric to react to)
-1. **Estimated budget** — the headline number and where the money went.
-2. **Production time** — brief-to-delivery timeline.
-3. **Concept** — the strength of the idea itself.
-4. **Craft** — direction, edit, sound, animation, execution quality.
-5. **Business effectiveness** — does it actually sell / is the message clear?
+**Approach (revised after recon):**
+1. **Audit** — read VideoRep - Content OS, Video Projects DB, EA Briefing Hub, GetMany
+   briefing; map what exists, what's stale, what's missing.
+2. **Consolidate** — one canonical structure in VideoRep HQ; merge or archive duplicates.
+3. **Capture** — brain-dump interviews with Eric (voice memos fine), filed into:
+   Expertise & POV · Voice & Style Guide · Email Playbook · Script-Writing Research ·
+   Avatar & Audience · Content Engine (Ideas → Scripts → Published) · Reference Library
+   (awards, pricing benchmarks) · Brain Dump Log.
+4. **Ingest** — Gmail response patterns (with Eric's OK), newsletter archive, site copy,
+   expertise docs Eric shares.
+5. **Learning loop** — weekly scheduled sweep proposing additions for approval.
 
-Optional recurring segment: **"Could you do this for less?"** — what a scrappier version
-costs and what you'd sacrifice.
+**Fast-track:** audit + consolidation + first capture session can be done in a day.
 
-### Research task (scoped, NOT started)
-1. **Map the award landscape** for business/ad video: Cannes Lions, Clio, One Show, D&AD,
-   Effie, Webby, Telly, Shorty, American Advertising Awards, B2B-specific programs.
-   For each: does it cover ads specifically? How are winners categorized — by industry,
-   by format, or both? How browsable are the archives?
-2. **Cadence check:** is there enough award-winning material to sustain daily episodes,
-   or is weekly the realistic ceiling?
-3. **Taxonomy decision:** do audiences search by *industry* or by *format* (explainer,
-   commercial, support video)? Whichever it is becomes the series' organizing principle —
-   Eric suspects industry, since explaining "what an explainer is" for each industry is
-   where he adds value.
-4. **Competitive scan:** who already does cost-breakdown video content, and what's the gap?
-
-**Deliverable: a research memo recommending the award sources to pull from, the cadence,
-and the taxonomy.**
-
-### The weekly system (to design after research)
-- **Pipeline:** Pick (from awards backlog) → Research → Script → Record → Edit → Publish
-  → Log in Notion.
-- **Script template** with fixed beats: cost-guess hook → what this format/industry is →
-  breakdown → five ratings → Eric's guesstimate and take → CTA.
-- Backlog database in Notion (lives in the Content Engine section from Project 1).
-- A protected weekly time block on the calendar for creation.
-
-### Open questions for Eric
-1. Where does this publish — the existing YouTube channel or a new one?
-2. Format: talking head, screen-share with the ad playing, voiceover? Target length?
-3. Honest weekly time budget for content?
-4. Who's the viewer — founders buying video, marketing managers, agencies?
+**Interview Round 1 (answer via voice memo):**
+1. Where do your expertise docs live, and which 3–5 matter most?
+2. Is "VideoRep - Content OS" the structure to build on, or start clean in VideoRep HQ?
+3. Does your editor need edit access / a dedicated view?
+4. OK for Claude to sweep Gmail for response patterns?
+5. Where do YouTube edit notes/decisions currently live?
 
 ---
 
-## Sequencing — what happens next, in order
-1. **Eric:** answer Interview Round 1 (both projects' questions — voice memo is fine).
-2. **Claude:** run the awards-landscape research → deliver the memo.
-3. **Claude:** build the Notion skeleton; begin ingestion (email sweep after Eric OKs it).
-4. **Together:** finalize the rating framework + script template; pilot Episode 1.
-5. **Claude:** set up the weekly learning-loop routine and the content pipeline in Notion.
+## Project 2 — Topic Research, Social Listening & Avatar — FIRST content project
+
+**Why first:** every other content decision (topics, awards angle, scripts) depends on
+who the avatar is and what they're asking.
+
+**Strategy inputs Eric named:**
+- "They Ask, You Answer" (Marcus Sheridan) — answer the real questions prospects ask.
+- YouTube SEO — VidIQ-style research, but with nuance: keyword comparison is only
+  meaningful once the avatar is defined.
+
+**Workstream:**
+1. **Avatar definition** — an interview in itself. Draft hypothesis to react to: tech /
+   AI / SaaS founders and marketing leads who need video (demos, explainers, YouTube
+   presence) and don't know what it costs or how to start.
+2. **Audit existing content** — review @VideoContentForBusiness (published videos,
+   titles, performance) + past scripts/clips already in Notion.
+3. **Social listening & topic research** — trending questions on YouTube + LinkedIn in
+   the niche; They-Ask-You-Answer question mining (cost, comparisons, problems, best-of,
+   reviews); the rising "build your own personal brand / make your own content" wave as
+   a candidate pillar.
+4. **Deliverable:** avatar one-pager + ranked topic backlog for YouTube and LinkedIn,
+   filed in Notion.
+
+---
+
+## Project 3 — Awards Review Cadence (weekly, live)
+
+**The system Eric wants:** a weekly reminder — "here are the award winners to review
+this week, they're explainers / ads / etc., here's the link" — and he reviews them live.
+Low prep, high repeatability.
+
+**Taxonomy:** industry + type (format). Location possible but weaker. Niche: business
+video, leaning tech and AI; can flex across industries and types within that.
+
+**Pipeline math (Eric's estimate, to validate in research):** ~10 relevant awards over
+the last 2 years × 5–10 winners each ≈ 50–100+ pieces to review — likely more, since
+each review can ship as a long version + a cut-down. At weekly cadence that's 1–2+
+years of runway; even an aggressive cadence has months.
+
+**Research task (scoped, not started):** identify the ~10 awards covering business
+video (ads, explainers, demos, support video) with browsable winner archives — Cannes
+Lions, Clio, One Show, D&AD, Effie, Webby, Telly, Shorty, AAA, B2B/tech-specific
+programs; confirm industry/type categorization; build the initial 50–100 item backlog.
+
+**Rating framework (draft "five things," for Eric to react to):** estimated budget ·
+production time · concept · craft · business effectiveness. Optional segment: "could
+you do this for less?"
+
+**Automation:** backlog database in Notion + a weekly scheduled reminder (Claude
+routine or calendar event) that serves up the next item with links.
+
+---
+
+## Project 4 — Script-Writing System
+
+**Goal:** Claude co-writes Eric's YouTube scripts — explainers, support videos, and the
+awards-review episodes.
+
+**Components (live inside the Second Brain):**
+1. **Script-writing research doc** — what makes excellent YouTube/explainer scripts
+   (hooks, retention structure, CTAs), curated once, refined with each script.
+2. **Eric's tone & style guide** — distilled from his videos, emails, and existing
+   Notion scripts; the thing that makes drafts sound like him.
+3. **Templates** — per format: awards review, explainer, support video, LinkedIn post.
+4. **Workflow** — topic (from Project 2/3 backlog) → Claude drafts from template +
+   style guide → Eric edits/records → learnings fed back into the research doc.
+
+---
+
+## Sequencing
+1. **NOW (before Fable sunset):** Project 1 fast-track — Notion audit + consolidation +
+   first brain-dump capture. Eric answers Interview Round 1.
+2. **Next:** Project 2 — avatar interview, content audit, topic research.
+3. **Then:** Project 3 research → backlog → weekly reminder goes live.
+4. **Ongoing:** Project 4 templates + style guide, then weekly script production.
 
 ## Parking lot
-Eric mentioned "there might be a couple other things." Capture them here as they surface.
+- Eric mentioned earlier there may be "a couple other things" — capture as they surface.
+- Cut-down / repurposing pipeline (long → shorts → LinkedIn) — touched on, not yet scoped.
