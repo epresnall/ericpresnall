@@ -10,10 +10,14 @@
 | 4 | **Script-writing system** — research doc, tone & style guide, per-format templates | Not started | Tasks 1–2 |
 | 5 | **Wife's business awards** — list of best-fit awards with dates + entry conditions (school-world coach/consultant, Sydney/NSW/AU) | Not started | Eric: her name/business, entry type, geography |
 | 6 | **Studio optimization** — a7 III connection, audio, lighting, background | Not started | Eric: current setup, room, budget, use case |
-| 7 | **Hand off to desktop Claude Code** — continue this work from Eric's MacBook | In progress | Eric: clone repo + open branch (steps in chat) |
+| 7 | **Hand off to desktop Claude Code** — continue this work from Eric's MacBook | **DONE** — Eric is in on desktop | — |
+
+Interview questions for tasks 1–6 live in `docs/INTERVIEWS.md` — answer a batch
+in any session (web or desktop); that session files the answers there, distills
+decisions into this doc, and pushes.
 
 Done so far: investigate-first agreement in AGENTS.md · this plan doc · Notion recon
-(VideoRep HQ assets mapped) · Claude-app visibility question answered.
+(VideoRep HQ assets mapped) · desktop handoff (task 7) · interview guide created.
 
 Captured 2026-07-18 from Eric's voice notes (two memos). Restructured per memo #2 into
 four projects. Priority order changed: the Second Brain is now urgent (Eric wants it
