@@ -130,6 +130,33 @@ awards-review episodes.
 3. **Then:** Project 3 research → backlog → weekly reminder goes live.
 4. **Ongoing:** Project 4 templates + style guide, then weekly script production.
 
+## Side quests (separate from the content system)
+
+### A — Business awards for Eric's wife (research, pending clarifiers)
+Goal: a submission-ready list of awards she fits — she's a coach/consultant in the
+school world, Sydney / NSW / Australia — with entry dates, conditions, and best-fit
+categories, so Eric can submit on her behalf.
+Open questions for Eric (voice memo fine): her name and business name; coaching vs
+consulting mix; enter her as an individual, the business, or both; NSW-only,
+national, or include international programs; any results/testimonials to cite in
+entries.
+
+### B — Studio optimization (pending clarifiers)
+Symptoms Eric reported: Sony a7 III "doesn't connect well"; complaints about audio,
+lighting, and the studio background.
+Early hypothesis to validate: the a7 III's USB webcam path (Imaging Edge) is
+low-resolution and flaky — the standard fix is clean HDMI out into a capture card
+(e.g. Elgato Cam Link 4K) plus a dummy-battery power adapter. Audio/lighting/
+background need the clarifiers below before recommending a kit.
+Open questions: what the camera feeds into today (Mac? OBS? Zoom/Riverside?);
+current mic and audio chain; the room — size, windows, current lights, what the
+background looks like; budget range; is the studio for live calls, recorded
+YouTube, or both.
+
+## Process notes
+- Eric answers by voice memo; put pending questions in plain text (here and in
+  chat), not blocking question prompts.
+
 ## Parking lot
 - Eric mentioned earlier there may be "a couple other things" — capture as they surface.
 - Cut-down / repurposing pipeline (long → shorts → LinkedIn) — touched on, not yet scoped.
