@@ -1,55 +1,75 @@
-# Job / Outreach Agent — Discovery & Spec
+# Job / Outreach Agent — State & Decisions
 
-> Living document. We keep this current so context is never lost between sessions.
+> Living document. Updated after a full review of the existing `job-pipeline/`
+> and `outreach-agent/` work already on this branch.
 > Last updated: 2026-07-19
 
-## 1. Who Eric is (drawn from ericpresnall.com — CONFIRM / CORRECT)
+## 1. The goal (north star) — CONFIRMED from existing docs
 
-- **Positioning:** Entrepreneur | Entertainer | Educator. Bridges entertainment
-  and business through authentic video communication and storytelling.
-- **Core professional identity:** On-camera talent / spokesperson + video content
-  specialist. Founder of **The Spokesman** — six-figure video content business
-  serving Fortune 500 clients (Microsoft, Facebook, Ahrefs, Sony, Unilever).
-- **Company / email domain:** theglobalexperience.co
-- **Performance résumé:** Broadway national tours (American Idiot — Tunny u/s;
-  Mamma Mia — Sky), Disney Paris (High School Musical), TV host (Animal Planet
-  "Who Let the Dogs Out"), national commercials (National Guard, KFC, Caltrans),
-  voice acting. IMDb: nm2558438.
-- **Business/BD:** Ran sales & client relations for Sydney's largest video
-  production house; built six-figure freelance video business on Upwork.
-- **Education:** B.S. Psychology, Macquarie University (consumer psychology,
-  communication theory). Financial literacy educator (Commonwealth Bank Start Smart).
-- **Current projects:** Video content business; "Travel Time" kids' educational
-  travel show (YouTube @Travel_Time_Kids).
-- **International:** 35+ countries; lived in Australia and Japan.
-- **Public links:** LinkedIn /in/ericpresnall, YouTube @VideoContentForBusiness,
-  YouTube @Travel_Time_Kids, IMDb nm2558438.
+Land **3 anchor clients on ongoing retainers (~$5–15K/mo each, ~12 months)** —
+NOT one-off gigs. The mechanism: apply to **off-Upwork on-camera roles**
+(video presenter / spokesperson / on-camera host / UGC creator), then **convert
+replies into monthly retainers** in the conversation. Upwork is a separate,
+already-handled system — this one is 100% OFF-Upwork.
 
-## 2. THE PIVOTAL QUESTION (must resolve first)
+Brand in the pipeline docs: **VideoRep**, reel **videorep.co**, booking
+**cal.com/videorep/eric-presnall-contact-call**.
+⚠️ Note vs the website: site says **"The Spokesman"** / theglobalexperience.co /
+ericpresnall.com. → NEED Eric to confirm which brand + reel + booking link is current.
 
-What is this agent hunting for?
-- [ ] (A) **Jobs/gigs for Eric** — roles, castings, hosting, spokesperson,
-      video producer, corporate presenter, etc. → apply / outreach to hirers.
-- [ ] (B) **Clients for the video business** — companies that need video content;
-      find decision-makers; outreach to win projects.
-- [ ] (C) **Both / hybrid.**
+## 2. Who Eric is (source of truth for generation)
+On-camera video spokesperson/presenter/host. 20+ yrs, Upwork Top Rated Plus
+(Top 1%, 8 categories), 500+ five-star projects, 250+ brands (Microsoft,
+Facebook, Ahrefs, Sony). Marketer + strategist + creative director with a full
+team — takes a brief end-to-end (research → script → deliver), 24–48h turnaround.
+Military veteran, HubSpot certified, B.S. Psychology. LA-based, US-remote.
 
-Everything else depends on this answer. → **OPEN**
+## 3. What already exists on this branch
+### `job-pipeline/` — human-run knowledge base (READY TO USE)
+- `START-HERE.md` — 20-min morning routine.
+- `README.md` — full engine spec (source → score → build → deliver → warm-intro).
+- `DIAGNOSIS.md` — key lesson: **the leak is follow-up + underselling, not sourcing.**
+  Answer the 3 questions every client asks (price / is-it-you / location) up front;
+  reply to warm leads within the hour; use accurate credentials; always attach video.
+- `RESUME-STRATEGY.md`, `resume.md`, 5 tailored `.docx` resumes in `files/`.
+- `cover-letter-template.md`, `ai-prompt-screening-answers.md`, `answers-clients-always-ask.md`.
+- `playbooks/` — conversation (reply→retainer), warm-intro, retainer-pricing.
+- Lead batches: `2026-06-30-batch.md`, `2026-07-09-linkedin-picks.md`, `2026-07-13-live-batch.md`.
 
-## 3. Open questions (interview in progress)
-See chat. Sections: Target definition, Sources, Scoring, Outreach mechanics,
-Assets/materials, Delivery & approval, Tools/accounts, Guardrails, Success metric.
+### `outreach-agent/` — working v1 code pipeline (TESTED OFFLINE, 26 checks)
+Scraper (TheirStack) → Qualifier (Claude A/B/C) → Enrichment (Apollo) →
+Outreach (Claude drafts, staged for approval, sends via Smartlead).
+- Runs fully offline on fixtures (`npm test`, `npm run mock`).
+- `brand.json` pre-filled; approval gate + CAN-SPAM footer + dedup built in.
+- **Never went live** because no job-data key/source was ever connected.
 
-## 4. Available tooling in this environment (assets we can wire in)
-- **Apify** — token verified & working (job/lead scraping via actors + API).
-- **Gmail** connector — send/draft outreach email.
-- **Google Calendar** connector — schedule follow-ups / calls.
-- **HubSpot** connector — CRM for tracking opportunities & outreach.
-- **Notion** connector — pipeline / tracker database.
-- **Slack** connector — notifications.
-- **Beehiv, Canva, Gamma** connectors — content/collateral if useful.
-- **GitHub** — this repo (personal site) for hosting any agent code.
+## 4. THE blocker (now solvable) — live job source
+Every design assumed **TheirStack** (or Apify as backup) for sourcing, but no key
+was ever added, so the pipeline had no live data and fell back to manual search.
 
-## 5. Decisions log
-- 2026-07-19: Apify network access confirmed open from Claude Code cloud env;
-  token verified (user: distracting_indentation / Eric Presnall, Free plan, $5/mo).
+✅ **NEW (2026-07-19): Apify is confirmed WORKING from this Claude Code env**
+(network open, Eric's token verified). Apify can be the live job source now —
+no TheirStack subscription required.
+
+## 5. Available tooling in THIS environment (native, no extra SaaS)
+- **Apify** — verified working (job scraping + contact/email-finder actors).
+- **Gmail** connector — send/draft outreach (alternative to Smartlead).
+- **HubSpot** connector — CRM pipeline for opportunities.
+- **Notion** connector — lead tracker board.
+- **Slack** connector — new-lead notifications.
+- **Google Calendar** connector — follow-up / call scheduling.
+- Me (Claude) — scoring + copy, right here.
+
+## 6. Open DECISIONS (the real questions left)
+1. **Runtime:** (A) run natively in Claude Code — Apify sourcing + Gmail/Notion/
+   HubSpot, no monthly SaaS; or (B) the standalone `outreach-agent` app with
+   TheirStack + Apollo + Smartlead keys (more autonomous, paid). → OPEN
+2. **Outreach automation:** draft-for-approval (matches current Phase-1 gate) vs
+   auto-send. → OPEN
+3. **Brand/identity:** VideoRep vs The Spokesman; correct reel + booking link. → OPEN
+4. **Still-owed inputs (per docs):** evergreen 45–60s intro video; real mailing
+   address (CAN-SPAM); confirm booking link. → OPEN
+
+## 7. Decisions log
+- 2026-07-19: Apify network access confirmed open; token verified (Eric Presnall,
+  Free plan, $5/mo). Reviewed full existing job-pipeline + outreach-agent codebase.
