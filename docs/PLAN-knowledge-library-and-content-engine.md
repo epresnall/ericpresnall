@@ -1,5 +1,20 @@
 # Master Plan: Second Brain + Content Engine (v2)
 
+## CANONICAL TASK LIST — single source of truth, numbered once, update here only
+
+| # | Task | Status | Waiting on |
+|---|------|--------|------------|
+| 1 | **Second Brain in Notion** — consolidate VideoRep HQ, capture Eric's expertise, ingest sources, weekly learning loop | Not started — URGENT | Eric: win condition, base structure (Content OS vs clean), Gmail OK, editor access |
+| 2 | **Topic research & avatar** — They Ask You Answer + YouTube SEO, social listening, channel audit | Not started | Avatar interview with Eric |
+| 3 | **Awards review cadence** (VideoRep content) — map awards, build 50–100 item backlog, weekly reminder, five-things rating | Not started | Nothing — Claude can start the research anytime |
+| 4 | **Script-writing system** — research doc, tone & style guide, per-format templates | Not started | Tasks 1–2 |
+| 5 | **Wife's business awards** — list of best-fit awards with dates + entry conditions (school-world coach/consultant, Sydney/NSW/AU) | Not started | Eric: her name/business, entry type, geography |
+| 6 | **Studio optimization** — a7 III connection, audio, lighting, background | Not started | Eric: current setup, room, budget, use case |
+| 7 | **Hand off to desktop Claude Code** — continue this work from Eric's MacBook | In progress | Eric: clone repo + open branch (steps in chat) |
+
+Done so far: investigate-first agreement in AGENTS.md · this plan doc · Notion recon
+(VideoRep HQ assets mapped) · Claude-app visibility question answered.
+
 Captured 2026-07-18 from Eric's voice notes (two memos). Restructured per memo #2 into
 four projects. Priority order changed: the Second Brain is now urgent (Eric wants it
 worked out before the Fable model sunset, believed to be ~tomorrow), and Topic Research
