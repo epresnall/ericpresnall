@@ -1,32 +1,34 @@
-# Continue this work on the MacBook (desktop Claude Code)
+# Continue this work on the MacBook
 
-## First time on this Mac — one copy-paste
+## The direct transfer — pulls this exact session, conversation and all
 
-Open Terminal and paste this whole line:
+In Terminal on the Mac (signed into the same claude.ai account):
 
-    git clone https://github.com/epresnall/ericpresnall.git ~/ericpresnall && cd ~/ericpresnall && git checkout claude/content-org-script-strategy-3u4743
+    git clone https://github.com/epresnall/ericpresnall.git ~/ericpresnall
+    cd ~/ericpresnall
+    claude --teleport session_01M8JzoyM7mBjfby5kUi6DzP
 
-(If the clone asks for a GitHub login and that's a hassle, install GitHub
-Desktop, sign in, clone `epresnall/ericpresnall` from there, then run the
-`git checkout` part in Terminal inside the folder.)
+Teleport fetches the working branch and loads the full conversation history
+into the terminal — it's the same session, continued locally.
 
-Then either:
-- open the **Claude desktop app → Code tab → open the `ericpresnall` folder**, or
-- run `claude` in Terminal inside that folder.
+Notes:
+- If `claude` isn't installed yet: `npm install -g @anthropic-ai/claude-code`
+- Must run from a checkout of this repo; uncommitted changes are auto-stashed.
+- The desktop app itself can't pull web sessions — teleport is a CLI feature.
+  The desktop app and CLI can run side by side on the same folder.
 
-Say anything — even just **"what's next?"** The session auto-loads `AGENTS.md`,
-which points it at the canonical task list in
-`docs/PLAN-knowledge-library-and-content-engine.md`.
+## Future sessions — how anything stays connected
+
+- Any web session at claude.ai/code has an **"Open in CLI"** option that copies
+  its `claude --teleport <session-id>` command. Inside any CLI session,
+  `/teleport` opens a picker of cloud sessions to pull.
+- **The repo is the shared brain regardless of surface.** Every session
+  auto-loads `AGENTS.md`, which points to the canonical task list in
+  `docs/PLAN-knowledge-library-and-content-engine.md`. Whichever session does
+  work updates that doc and pushes; the next session starts current.
+- Fresh session without teleport? Open this folder and say "what's next?" —
+  the AGENTS.md pointer does the rest.
 
 ## Already cloned? Just sync
 
     cd ~/ericpresnall && git fetch origin && git checkout claude/content-org-script-strategy-3u4743 && git pull
-
-## How the surfaces stay connected
-
-- **The repo is the shared brain.** Web sessions (claude.ai/code), the desktop
-  app, and mobile all read and write the same plan doc; every session pushes
-  its updates, so the next session — on any surface — starts current.
-- The original web session stays available at claude.ai/code in any browser.
-- Once the Notion second brain exists (Task 1), it becomes the second shared
-  home for context that isn't code-adjacent.
