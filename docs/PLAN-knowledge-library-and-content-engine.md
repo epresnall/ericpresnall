@@ -4,8 +4,8 @@
 
 | # | Task | Status | Waiting on |
 |---|------|--------|------------|
-| 1 | **Second Brain in Notion** — consolidate VideoRep HQ, capture Eric's expertise, ingest sources, weekly learning loop | Not started — URGENT | Eric: win condition, base structure (Content OS vs clean), Gmail OK, editor access |
-| 2 | **Topic research & avatar** — They Ask You Answer + YouTube SEO, social listening, channel audit | Not started | Avatar interview with Eric |
+| 1 | **Second Brain in Notion** — consolidate VideoRep HQ, capture Eric's expertise, ingest sources, weekly learning loop | **In progress** — interview done, build plan delivered 2026-07-19; Gmail cleared (full sweep, North State Original excluded); building on Content OS | Eric: "build" go-ahead; locate Brand OS/Pattern Library docs (desktop) |
+| 2 | **Topic research & avatar** — They Ask You Answer + YouTube SEO, social listening, channel audit | Partially answered via Anuj's data: ICP = B2B SaaS founders/marketers, 5–50 person teams, US-primary; 4 pillars defined | Held at bay per Eric; remaining: keywords to own, content diet, transcripts access |
 | 3 | **Awards review cadence** (VideoRep content) — map awards, build 50–100 item backlog, weekly reminder, five-things rating | Not started | Nothing — Claude can start the research anytime |
 | 4 | **Script-writing system** — research doc, tone & style guide, per-format templates | Not started | Tasks 1–2 |
 | 5 | **Wife's business awards** — list of best-fit awards with dates + entry conditions (school-world coach/consultant, Sydney/NSW/AU) | Not started | Eric: her name/business, entry type, geography |
@@ -15,6 +15,32 @@
 Interview questions for tasks 1–6 live in `docs/INTERVIEWS.md` — answer a batch
 in any session (web or desktop); that session files the answers there, distills
 decisions into this doc, and pushes.
+
+## New inputs — 2026-07-19 (Anuj's system + Section 0/Task 1 interview)
+
+- **Anuj** (YouTube growth editor) runs a data-driven system: ICP = **B2B SaaS
+  founders/marketers, 5–50 person teams, US-primary**; four content pillars
+  (Funnel Diagnostics, AI-vs-Human, Brand Teardown, Coaching); calendar rules
+  (4 Shorts/wk, 1 long-form/2wks, ≥1 brand teardown/wk, zero freelancer
+  content); KPI baselines and a monthly test framework. His two docs (10
+  long-form ideas + data-driven optimization plan) go into the Notion
+  Reference Library during the Task 1 build — not committed to this repo.
+- **Strategic fit:** the Task 3 awards show IS a brand-teardown format — 13 of
+  his 15 top videos name a brand, and his idea #4 is literally a cost-breakdown
+  video. The data validates the cost-transparency angle.
+- **The 350+ sales-call transcripts** Anuj flags as the most valuable untapped
+  asset — top ingestion priority after Gmail; location TBD (ask Eric).
+- **Anuj's open asks for Eric:** 5–10 keywords to own · 10–15 sales transcripts
+  · content diet (3–5 newsletters/podcasts/channels) · which email for the
+  GitHub repo invite. First three fold into Task 2 (held at bay per Eric).
+- **December Content OS page read in full** — it's the vision brief (weekly
+  theme engine, Notion single source of truth, scale to Wellnest/Travel Time)
+  and names completed assets: Brand OS docs, Pattern Libraries 1+2, voice/
+  tone/positioning guidelines. Those files are on Eric's MacBook, not in this
+  repo — the desktop session should locate and add them.
+- **Privacy rule (binding):** no addresses, no financial figures, no personal
+  matters in Notion or this repo; North State Original excluded from all
+  ingestion. Revenue targets exist only in conversation by design.
 
 Done so far: investigate-first agreement in AGENTS.md · this plan doc · Notion recon
 (VideoRep HQ assets mapped) · desktop handoff (task 7) · interview guide created.

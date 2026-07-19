@@ -12,16 +12,24 @@ the plan doc, and pushes. Section 0 shapes everything — answer it early.
 0.1 The 12-month picture: what does VideoRep need to achieve in the next 12
     months — revenue, clients per month, something else — and what role is
     content supposed to play in getting there?
-    A:
+    A: (2026-07-19) Staged monthly revenue ladder defined — specific figures
+    deliberately kept out of written docs per privacy rule 1.8. Model:
+    high-ticket ongoing monthly retainers, small number of clients. Content's
+    job is to attract and convert exactly that clientele.
 0.2 Your time: how many hours per week can you genuinely protect for all of
     this combined, and which days/blocks are realistic?
-    A:
+    A: Goal is to make this full-time, with clients on ongoing contractual
+    work. (Follow-up: specific protected weekly blocks still to be set.)
 0.3 Your team: who else exists? The editor — name, weekly hours, strengths?
     A VA? What can be delegated to them vs. must be you?
-    A:
+    A: Two editors today: an external client-work editor (collab via Frame.io)
+    and Anuj, the YouTube growth editor/strategist (has his own Notion second
+    brain; building a shared private GitHub repo for sync). Future hires:
+    editors, then a general manager for money/ops.
 0.4 Money: monthly budget for tools/subscriptions, and separate one-off
     ceilings for studio gear and award entry fees?
-    A:
+    A: Keep tool spend to a minimum until the first revenue milestone, then
+    expand into marketing/problem-solving spend.
 
 ## Task 1 — Second Brain in Notion (URGENT)
 Goal: one living Notion library holding your full context — expertise, voice,
@@ -30,29 +38,46 @@ editor, and Claude.
 
 1.1 Success test: three months from now, what do you or your editor actually
     look up in it during a normal week? What frustration disappears?
-    A:
+    A: The frustration to kill: MacBook is disorganized, MD files scattered,
+    "Claude is all over the place." Success = ONE organized Notion home that
+    replaces the clutter and acts as a constant learning wheel producing
+    expertise documents.
 1.2 Win condition before the Fable sunset: consolidated structure only,
     structure + your expertise captured, or full build including ingestion?
-    A:
+    A: Full build ideally; agreed approach = plan first (delivered
+    2026-07-19), then build. Open to Claude's scope recommendation.
 1.3 December's "VideoRep - Content OS" page: build on it, start clean, or I
     audit everything in VideoRep HQ and recommend?
-    A:
-1.4 Gmail: full sweep, sent-mail only, or not yet? And which inboxes —
-    eric@theglobalexperience.co only, or VideoRep/other addresses too?
-    A:
-1.5 Your editor: who are they, what did they literally ask for (paste their
-    message if you have it), and what access — full, curated view, or ask them?
-    A:
+    A: Build on Content OS — that's what VideoRep HQ becomes. The Dec vision
+    doc confirms the target: Notion as single source of truth, weekly theme
+    engine, later scaled to Wellnest + Travel Time.
+1.4 Gmail: full sweep, sent-mail only, or not yet? And which inboxes?
+    A: CLEARED — full sweep including sent mail, across VideoRep-relevant
+    inboxes. EXCLUDE North State Original (past business) entirely.
+1.5 Your editor: who are they, what did they literally ask for, and access?
+    A: Two different editors. (a) External client-work editor — projects go
+    back and forth via Frame.io. (b) Anuj — YouTube growth editor/strategist,
+    has his own Notion second brain, building a shared private GitHub repo
+    (needs Eric's email for the invite). Anuj's open asks: 5–10 keywords to
+    own, 10–15 sales call transcripts (says the 350+ transcript database is
+    the most valuable untapped asset), and Eric's content diet (3–5
+    newsletters/podcasts/channels).
 1.6 Expertise docs: where do they live, and which 3–5 matter most?
-    A:
-1.7 Full inventory: what else holds context — Drive, Dropbox, Loom, Frame.io,
-    WhatsApp/iMessage threads with the editor, Apple Notes, anything?
-    A:
-1.8 Boundaries: anything that must NOT go into the library (confidential
-    client work, private pricing, personal matters)?
-    A:
-1.9 The learning loop: weekly digest you approve, or fully automatic? What day?
-    A:
+    A: ~3 docs; almost certainly the Content OS "completed assets": Brand OS
+    documents (VideoRep/Wellnest/Travel Time), Pattern Library Parts 1+2
+    (long-form structures; short-form hooks), voice/tone/positioning
+    guidelines. NOT in this repo — they live on the MacBook / local Claude
+    MD files. ACTION: desktop session to locate and commit/upload them.
+1.7 Full inventory: what else holds context?
+    A: Drive, Dropbox, Loom, Frame.io all in play; no Apple Notes. Tech-stack
+    context also sits in MacBook MD files — same gathering action as 1.6.
+1.8 Boundaries: anything that must NOT go into the library?
+    A: Privacy gate required — no addresses, no financial details, no
+    personal matters. North State Original excluded from all ingestion.
+1.9 The learning loop: weekly digest you approve, or fully automatic?
+    A: Fully automatic — feeds in as things get created, with a weekly
+    automated sweep and a visible log on the dashboard (automatic but
+    auditable).
 
 ## Task 2 — Avatar & Topic Research
 Goal: to be locked by 2.1 — a defined avatar and a ranked topic backlog for
