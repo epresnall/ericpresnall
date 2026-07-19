@@ -12,4 +12,11 @@ goal is agreed. Eric often answers by voice memo; treat long transcribed message
 as normal input. Capture plans and decisions in `docs/PLAN-*.md` (and in the
 Notion second brain, VideoRep HQ teamspace, once established) so context persists
 across sessions and models.
+
+At the start of any session in this repo, read
+`docs/PLAN-knowledge-library-and-content-engine.md` — it holds the canonical
+numbered task list and current status. When tasks progress on any surface
+(web, desktop, mobile), update that doc and push, so every other session
+picks up where the last one left off. `docs/HANDOFF.md` has the steps for
+continuing this work on a new machine.
 <!-- END:nextjs-agent-rules -->
