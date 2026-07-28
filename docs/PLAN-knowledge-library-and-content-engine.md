@@ -11,10 +11,39 @@
 | 5 | **Wife's business awards** — list of best-fit awards with dates + entry conditions (school-world coach/consultant, Sydney/NSW/AU) | Not started | Eric: her name/business, entry type, geography |
 | 6 | **Studio optimization** — a7 III connection, audio, lighting, background | Not started | Eric: current setup, room, budget, use case |
 | 7 | **Hand off to desktop Claude Code** — continue this work from Eric's MacBook | **DONE** — Eric is in on desktop | — |
+| 8 | **Offer & website update** — homepage to one offer ("Human video for B2B tech"), three tiers visible, guarantee above the fold, Upwork credentials to FAQ | Not started — this repo IS the website; Claude can draft | Eric: confirm the A-to-Z offer is final |
+| 9 | **Outbound engine** — warm past-client shortlist (personal messages), 20 spec videos/month, SmartLead cold email ramp (16 domains × 3 mailboxes) | Not started | Eric-led; Claude drafts messages + spec scripts |
+| 10 | **Legal protections** — AI-replica clause (lawyer-drafted), guarantee terms | Not started | Eric: engage lawyer |
 
 Interview questions for tasks 1–6 live in `docs/INTERVIEWS.md` — answer a batch
 in any session (web or desktop); that session files the answers there, distills
 decisions into this doc, and pushes.
+
+## Offer strategy session integrated — 2026-07-19 (from Eric's Cowork session)
+
+The pasted A-to-Z settles the offer: **"Human video for B2B tech"** — Test
+Drive / 511 Launch / Engine ladder, hero-video unit pricing, swap-never-
+discount, gated performance guarantee, spec-video outreach, channel roles
+(YouTube = belief, LinkedIn = meetings, spec videos = replies). Full detail
+staged in `docs/second-brain-build.md` (Offer & Positioning page).
+
+Analysis — conflicts and gaps found:
+1. **ICP conflict:** Anuj's plan says 5–50 person teams; the offer session says
+   20–200 with paid budgets. Eric + Anuj must pick one; recommendation is
+   20–200 for sales, with Anuj's content targeting updated to match.
+2. **Stale public pricing:** old Notion blog pages (BUILD/GROW/SCALE per-video
+   prices) and the current website contradict the new ladder — cleanup belongs
+   to Task 8.
+3. **New work not previously tracked:** the session's "this week" list became
+   tasks 8–10 (website rewrite, outbound engine, legal clause).
+4. **Still open regardless:** keywords to own, content diet, transcripts
+   location, Anuj's invite email, MacBook docs, ICP decision.
+5. **Task 3 confirmation:** the awards show slots into the Brand Teardown
+   pillar Anuj's data already mandates weekly — concept validated twice over.
+
+Task 1 status: structure BUILT as staged content in `docs/second-brain-build.md`;
+Notion page creation pending Eric approving Notion write access for a Claude
+session (writes prompted for approval twice and couldn't complete here).
 
 ## New inputs — 2026-07-19 (Anuj's system + Section 0/Task 1 interview)
 
