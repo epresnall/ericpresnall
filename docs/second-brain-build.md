@@ -32,7 +32,7 @@ deliberately; Eric holds the names.
 
 **Needs Eric:** MacBook docs (Brand OS, Pattern Libraries, voice guidelines) ·
 location of the 350+ sales-call transcripts · which email gets Anuj's GitHub
-invite · ICP alignment decision.
+invite · Anuj to update his plan's ICP (5–50 → the decided 20–200 definition).
 
 **House rules:** privacy gate (no addresses, no financial figures, no personal
 matters; public-facing service pricing allowed) · North State Original excluded
@@ -89,20 +89,21 @@ made in ~20 min from their homepage. 20 target accounts/month.
 
 ## Page 3 — 🎯 Avatar & Keywords
 
-> ⚠️ Open decision — Eric + Anuj must align on ONE ICP.
+> ✅ ICP DECIDED — 19 Jul 2026, ratified by Eric: **marketing leaders at B2B
+> SaaS, tech, and AI companies, 20–200 people, running paid, no in-house
+> on-camera talent.** The angle: Eric is the **human side of tech brands** —
+> human-facing B2B, the counterweight to AI-everything. AI companies need
+> human faces most. Anuj's plan (5–50) to be updated to match.
 
-| Source | Definition |
-|---|---|
-| Anuj's optimization plan | B2B SaaS founders/marketers, 5–50 person teams, US-primary |
-| Offer strategy session | Marketing leaders at B2B SaaS/tech/AI, 20–200 people, running paid, no on-camera talent |
-
-Recommendation: adopt 20–200 marketing-leader definition for sales/outreach
-(budget + paid spend, which the performance guarantee requires); update Anuj's
-plan so content chases the same buyer. Decision pending.
+| Source | Definition | Status |
+|---|---|---|
+| Anuj's optimization plan | B2B SaaS founders/marketers, 5–50 person teams, US-primary | to be updated |
+| Offer strategy session, ratified by Eric | Marketing leaders at B2B SaaS/tech/AI, 20–200 people, running paid | ADOPTED |
 
 Eric sells to (his words): product marketers, marketers, salespeople, possibly
-growth managers. Content targets buyers of the Engine, not peers — no
-freelancer/Upwork topics (matches Anuj's "freelancer content: ZERO").
+growth managers — at human-facing tech brands, including AI companies. Content
+targets buyers of the Engine, not peers — no freelancer/Upwork topics (matches
+Anuj's "freelancer content: ZERO").
 
 **Keywords to own — OPEN (Anuj's ask, 5–10 terms).** Candidate directions:
 B2B video cost/pricing terms · SaaS demo video · explainer video cost ·
