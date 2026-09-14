@@ -14,6 +14,8 @@
 | 8 | **Offer & website update** — homepage to one offer ("Human video for B2B tech"), three tiers visible, guarantee above the fold, Upwork credentials to FAQ | Not started — this repo IS the website; Claude can draft | Eric: confirm the A-to-Z offer is final |
 | 9 | **Outbound engine** — warm past-client shortlist (personal messages), 20 spec videos/month, SmartLead cold email ramp (16 domains × 3 mailboxes) | Not started | Eric-led; Claude drafts messages + spec scripts |
 | 10 | **Legal protections** — AI-replica clause (lawyer-drafted), guarantee terms | Not started | Eric: engage lawyer |
+| 11 | **Rebuild the daily "what needs me" brief on the second brain** — the old Mac daily-brief email is dead (confirmed 2026-09-14: zero sends in 30 days; job-scan Routine disabled); the concept returns properly once Task 1 revives, built on curated data with a visible log | Later — explicitly after Task 1 | Task 1 revival |
+| 12 | **Presenter casting marketplaces** (candidate — Eric never formally adopted) — wave 1: The Right Fit, StarNow, Casting Networks AU; wave 2: Backstage only if wave 1 books nothing (the old system's Aug 12 review date passed unreviewed) | Unadopted; inherited from the deleted Mac system | Eric: "adopt it" or drop it |
 
 Interview questions for tasks 1–6 live in `docs/INTERVIEWS.md` — answer a batch
 in any session (web or desktop); that session files the answers there, distills
